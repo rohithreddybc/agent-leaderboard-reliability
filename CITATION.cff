@@ -6,7 +6,7 @@ abbreviation: bellibatlu2026leaderboards
 type: software
 version: 1.0.0
 # date-released: TODO (set at release, format YYYY-MM-DD)
-# repository-code: TODO (repository URL, set at release)
+repository-code: "https://github.com/rohithreddybc/agent-leaderboard-reliability"
 # doi: TODO (archive DOI, set at release)
 authors:
   - family-names: Bellibatlu

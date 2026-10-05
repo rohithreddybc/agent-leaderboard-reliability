@@ -1,0 +1,60 @@
+{
+  "n_submissions": 71,
+  "n_tasks": 89,
+  "n_pairs": 2485,
+  "n_boot": 10000,
+  "seed": 20261008,
+  "run": {
+    "n_adjacent_pairs": 70,
+    "share_adjacent_flip_gt_5pct": 0.8857142857142857,
+    "n_adjacent_flip_gt_5pct": 62,
+    "share_adjacent_flip_gt_20pct": 0.7571428571428571,
+    "n_adjacent_flip_gt_20pct": 53,
+    "separable_positions_exact": 19,
+    "separable_positions_greedy": 18,
+    "share_all_pairs_flip_gt_5pct": 0.10020120724346077,
+    "gap_max_unstable_pp": 3.5955056179775235,
+    "gap_min_stable_pp": 2.2471910112359605,
+    "gap_bin_stable_pp": 3.0,
+    "observed_vs_mean_bootstrap_rank_kendall": 0.9943661971830988,
+    "observed_rank_outside_95pct_interval": 0,
+    "rank_interval_width_median": 9.0,
+    "rank_interval_width_max": 13.0
+  },
+  "task": {
+    "n_adjacent_pairs": 70,
+    "share_adjacent_flip_gt_5pct": 0.9714285714285714,
+    "n_adjacent_flip_gt_5pct": 68,
+    "share_adjacent_flip_gt_20pct": 0.8857142857142857,
+    "n_adjacent_flip_gt_20pct": 62,
+    "separable_positions_exact": 13,
+    "separable_positions_greedy": 12,
+    "share_all_pairs_flip_gt_5pct": 0.19718309859154928,
+    "gap_max_unstable_pp": 7.640449438202246,
+    "gap_min_stable_pp": 3.5955056179775458,
+    "gap_bin_stable_pp": 6.0,
+    "observed_vs_mean_bootstrap_rank_kendall": 0.9911468812877265,
+    "observed_rank_outside_95pct_interval": 0,
+    "rank_interval_width_median": 14.0,
+    "rank_interval_width_max": 27.5
+  },
+  "split_half": {
+    "n_splits": 1000,
+    "spearman_brown_m": 2.4769218894720595,
+    "spearman_mean": 0.9797938637227921,
+    "spearman_q025": 0.9712589678355297,
+    "spearman_q975": 0.9866418041744096,
+    "kendall_mean": 0.8968855801791067,
+    "kendall_q025": 0.8749040908530676,
+    "kendall_q975": 0.9180213904121056,
+    "spearman_sb_mean": 0.991738820554441,
+    "spearman_sb_q025": 0.9881941493134231,
+    "spearman_sb_q975": 0.9945636356101347,
+    "kendall_sb_mean": 0.9556052087223157,
+    "kendall_sb_q025": 0.9454245573565206,
+    "kendall_sb_q975": 0.9652020356102468
+  },
+  "excluded": [
+    "MAYA__Claude-4.5-sonnet"
+  ]
+}

@@ -1,0 +1,20 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The derived data in this repository are licensed under CC BY 4.0.
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Covered files (derived data and documentation of data):
+  analysis/results/                      derived tables and results.md
+  analysis/leaderboards/results/         census outputs, including results/release/
+  harness/results/                       run records and summaries
+  data/*.csv, data/*SOURCES.md           hash manifests and source descriptions
+
+Not covered: the source leaderboards and datasets themselves. They are not redistributed
+here and keep the terms of their owners (data/SOURCES.md and data/leaderboards-SOURCES.md
+record the licence, or the absence of one, for each). The released numbers are counts and
+shares computed from those sources. Code is licensed separately under the MIT licence (LICENSE).
+
+Attribution: cite the work using CITATION.cff (key bellibatlu2026leaderboards).
+
+Copyright (c) 2026 the authors.

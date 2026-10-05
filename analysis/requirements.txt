@@ -1,0 +1,10 @@
+# Python 3.11.7. Versions used to produce analysis/results.
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.15.3
+networkx==3.6.1
+PyYAML==6.0.3
+requests==2.33.1
+pytest==8.4.2
+matplotlib==3.10.9   # figures only (analysis/figures)
+openpyxl==3.0.10     # leaderboards/inventory_counts.py only (reads the OSWorld workbook)

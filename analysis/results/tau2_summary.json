@@ -1,0 +1,42 @@
+{
+  "note": "Aggregates only: no per-task or per-trial outcomes, so no trial-level or task-level resampling and no confidence intervals are possible.",
+  "n_rows_submission_domain": 74,
+  "n_submissions_complete": 36,
+  "n_non_monotone_rows": 0,
+  "by_category": {
+    "legacy": 6,
+    "text": 29,
+    "unlisted": 1
+  },
+  "submissions_with_stated_4_trials": 16,
+  "by_domain": {
+    "airline": {
+      "n_submissions": 15,
+      "drop_4_pp_mean": 15.686666666666666,
+      "drop_4_pp_min": 7.0,
+      "drop_4_pp_max": 30.5,
+      "drop_4_pp_median": 14.5
+    },
+    "banking_knowledge": {
+      "n_submissions": 28,
+      "drop_4_pp_mean": 14.746108247422683,
+      "drop_4_pp_min": 4.639999999999999,
+      "drop_4_pp_max": 23.711340206185568,
+      "drop_4_pp_median": 15.206958762886597
+    },
+    "retail": {
+      "n_submissions": 16,
+      "drop_4_pp_mean": 24.607302631578946,
+      "drop_4_pp_min": 12.399999999999991,
+      "drop_4_pp_max": 32.900000000000006,
+      "drop_4_pp_median": 24.640000000000004
+    },
+    "telecom": {
+      "n_submissions": 15,
+      "drop_4_pp_mean": 15.934152046783625,
+      "drop_4_pp_min": 4.3859649122806985,
+      "drop_4_pp_max": 26.535087719298236,
+      "drop_4_pp_median": 16.450000000000003
+    }
+  }
+}

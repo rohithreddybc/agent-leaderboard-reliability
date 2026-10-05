@@ -1,0 +1,74 @@
+leaderboard,entry,reason
+SWE-bench Verified,20250720_mini-v0.0.0-Llama-4-Maverick-17B-Instruct,reported resolved 21.04% disagrees with the id list (105/500 = 21.00%): possible different task set or incomplete list
+SWE-bench Verified,20250720_mini-v0.0.0-Llama-4-Scout-17B-Instruct,no per-instance result file in the repository
+SWE-bench Verified,20250720_mini-v0.0.0-claude-3-7-sonnet-20250219,reported resolved 52.8% disagrees with the id list (51/500 = 10.20%): possible different task set or incomplete list
+SWE-bench Verified,20250720_mini-v0.0.0-gpt-4o-2024-11-20,no per-instance result file in the repository
+SWE-bench Verified,20250720_mini-v0.0.0_gpt-4.1-mini-2025-04-14,no per-instance result file in the repository
+SWE-bench Verified,20250726_mini-v1.0.0_claude-sonnet-4-20250514,reported resolved 64.93% disagrees with the id list (324/500 = 64.80%): possible different task set or incomplete list
+SWE-bench Verified,20250726_mini-v1.0.0_gemini-2.0-flash,no per-instance result file in the repository
+SWE-bench Verified,20250726_mini-v1.0.0_gemini-2.5-flash,no per-instance result file in the repository
+SWE-bench Verified,20250726_mini-v1.0.0_gpt-4.1-2025-04-14,no per-instance result file in the repository
+SWE-bench Verified,20260219_mini-v2.0.0_gpt-5-2-codex,no per-instance result file in the repository
+SWE-bench Verified,20260226_mini-v2.0.0_gemini-3-pro-high,reported resolved 69.6% disagrees with the id list (0/500 = 0.00%): possible different task set or incomplete list
+SWE-bench test (full),20240402_sweagent_claude3opus,resolved list contains duplicate instance ids
+TheAgentCompany,20250729_OpenHands-0.28.1-claude37-deepseekv3,41 of 175 task result files present
+TheAgentCompany,20250729_OpenHands-0.28.1-claude37-gpt4o,41 of 175 task result files present
+TheAgentCompany,20251013_MUSE-gemini-2.5-flash,174 of 175 task result files present
+tau2-bench banking_knowledge,distyl-buttonagent_distyl_2026-03-25,tau2-bench version 0.2.1-dev: banking_knowledge scores before 1.0.1 are not comparable (CHANGELOG 1.0.1)
+tau2-bench banking_knowledge,gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13,voice submission (different modality and protocol)
+tau2-bench banking_knowledge,gpt-live-1-astra-high-banking_openai_2026-09-16,voice submission (different modality and protocol)
+tau2-bench banking_knowledge,gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09,voice submission (different modality and protocol)
+tau2-bench banking_knowledge,gpt-realtime-2-banking_openai_2026-07-12,voice submission (different modality and protocol)
+tau2-bench banking_knowledge,xai-realtime-banking_xai_2026-07-13,voice submission (different modality and protocol)
+SWE-bench Multilingual,20260216_mini-v2.0.0a0_minimax-2-5,reported resolved 68.3% disagrees with the id list (203/300 = 67.67%): possible different task set or incomplete list
+tau2-bench telecom,claude-3-7-sonnet_anthropic_2024-06-20,"pass_1 = 49.0 is not a multiple of 1/456 (n = 114, k = 4 trials): possible different task set"
+tau2-bench telecom,claude-sonnet-4-5_anthropic_2025-10-02,"pass_1 = 98.0 is not a multiple of 1/114 (n = 114, k = 1 trials): possible different task set"
+tau2-bench telecom,deepseek-v3.2_deepseek_2025-12-01,"pass_1 = 96.2 is not a multiple of 1/114 (n = 114, k = 1 trials): possible different task set"
+tau2-bench telecom,gemini-3-1-flash-live-preview-thinking-high_google_2026-04-02,voice submission (different modality and protocol)
+tau2-bench telecom,gemini-3-1-flash-live-preview-thinking-minimal_google_2026-04-13,voice submission (different modality and protocol)
+tau2-bench telecom,gemini-3-pro_google_2025-11-18,"pass_1 = 98.0 is not a multiple of 1/114 (n = 114, k = 1 trials): possible different task set"
+tau2-bench telecom,gemini-live-2.5-flash_sierra_2026-03-03,voice submission (different modality and protocol)
+tau2-bench telecom,gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09,voice submission (different modality and protocol)
+tau2-bench telecom,gpt-live-1-diamond-alpha_openai_2026-09-09,voice submission (different modality and protocol)
+tau2-bench telecom,gpt-realtime-1-0_openai_2026-04-13,voice submission (different modality and protocol)
+tau2-bench telecom,gpt-realtime-1.5_sierra_2026-03-03,voice submission (different modality and protocol)
+tau2-bench telecom,gpt-realtime-2-minimal_openai_2026-07-01,voice submission (different modality and protocol)
+tau2-bench telecom,gpt-realtime-2_openai_2026-06-24,voice submission (different modality and protocol)
+tau2-bench telecom,gpt-realtime-2_openai_2026-06-29,voice submission (different modality and protocol)
+tau2-bench telecom,grok-voice-think-fast-1-0-tool-mentor_pickle_2026-07-07,voice submission (different modality and protocol)
+tau2-bench telecom,grok-voice-think-fast-1-0_xai_2026-04-21,voice submission (different modality and protocol)
+tau2-bench telecom,grok-voice-think-fast-2-0_xai_2026-08-06,voice submission (different modality and protocol)
+tau2-bench telecom,livekit-cascaded_livekit_2026-05-19,voice submission (different modality and protocol)
+tau2-bench telecom,pine-voice-preview-user-sim-gpt-5-5_pineai_2026-08-17,voice submission (different modality and protocol)
+tau2-bench telecom,pine-voice-preview-user-sim-v1-0_pineai_2026-08-17,voice submission (different modality and protocol)
+tau2-bench telecom,qwen3-5-omni-plus-realtime_qwen_2026-08-06,voice submission (different modality and protocol)
+tau2-bench telecom,qwen3-max_qwen_2025-10-30,not listed in the submissions manifest (not an active leaderboard entry)
+tau2-bench telecom,xai-realtime_sierra_2026-03-03,voice submission (different modality and protocol)
+AppWorld test_challenge,ReAct + 2 SetBSR Demos / GPT-4o (2025-07-13) [1c12639a-57a0ac34],task goal completion 38.9 is not a multiple of 1/417 at the printed precision: possible different task set or rounding
+WebArena (BrowserGym),GenericAgent-Llama-3.1-70b [fc5747bc-d998-4942-a0eb-e55a3ccc1cb3] Original,score 18.4 is not a multiple of 1/812 at the printed precision
+WebArena (Google Sheet),AgentLM-70b / Agent Tuning (10/2023),score 3.81 is not a multiple of 1/812 at the printed precision: possible subset of tasks or rounding
+WebArena (Google Sheet),AutoGuide / 03/2024,listed under the sheet's 'WebArena Subset' block (Reddit subset): a different task set
+WebArena (Google Sheet),AutoManual / 09/2024,listed under the sheet's 'WebArena Subset' block (Reddit subset): a different task set
+WebArena (Google Sheet),Gemini Pro / WebArena (12/2023),score 7.12 is not a multiple of 1/812 at the printed precision: possible subset of tasks or rounding
+WebArena (Google Sheet),Human / human,listed under the sheet's 'Human Performance' block (Selected tasks by templates): a different task set
+WebArena (Google Sheet),Llama3-chat-8b / WebArena Team (04/2024),score 3.32 is not a multiple of 1/812 at the printed precision: possible subset of tasks or rounding
+WebArena (Google Sheet),Mixtral / Gemini In-depth look (01/2024),score 1.39 is not a multiple of 1/812 at the printed precision: possible subset of tasks or rounding
+WorkArena L1,GenericAgent-AgentTrek-1.0-32b [ed14232c-cd7e-4708-b334-ebaf1f220000] Original,score 38.29 is not a multiple of 1/330 at the printed precision
+WorkArena L1,GenericAgent-GPT-5 [2025-08-07_21-09-16] Original,the entry's own field says the evaluation protocol was not followed (Increased max_steps from 15 to 30)
+WorkArena L1,IpaziaHPA-Gemini-3-flash-preview [2026-03-07_00-38-28] Original,the entry's own field says the evaluation protocol was not followed (Increased max_steps from 15 to 30)
+WorkArena L2,A3-Qwen3.5-9B [2026-03-14_12-38-08_genericagent-checkpoints-qwen-qwen3-5-9b-web-pro-low-8903051-checkpoint-latest-on-workarena-l2-test-test] Original,"the entry's comment states [341] tasks, not 235: different task set"
+AndroidWorld,GPT-4 Turbo / AndroidWorld (05/2024),"pass@1 30.6 is not a multiple of 1/116 (n = 116, 1 trial(s)) at the printed precision: possible different task set or rounding"
+AndroidWorld,GPT-4o / AndroidGen (4/2025),"pass@1 46.8 is not a multiple of 1/116 (n = 116, 1 trial(s)) at the printed precision: possible different task set or rounding"
+AndroidWorld,Gemini 2.5 Computer Use  / Gemini 2.5 Computer Use  (10/2025),"pass@1 69.7 is not a multiple of 1/116 (n = 116, 1 trial(s)) at the printed precision: possible different task set or rounding"
+AndroidWorld,Gemini-2.5-Pro+UI-TARS-1.5 / AgentProg (12/2025),"pass@1 78.0 is not a multiple of 1/116 (n = 116, 1 trial(s)) at the printed precision: possible different task set or rounding"
+AndroidWorld,Human / AndroidWorld (05/2024),"pass@1 80.0 is not a multiple of 1/348 (n = 116, 3 trial(s)) at the printed precision: possible different task set or rounding"
+AndroidWorld,JT-GUIAgent-V1 / JT-GUIAgent-V1 (6/2025),"pass@1 60.0 is not a multiple of 1/116 (n = 116, 1 trial(s)) at the printed precision: possible different task set or rounding"
+AndroidWorld,Qwen2-VL-2B (fine-tuned) / InfiGUIAgent (1/2025),"pass@1 9.0 is not a multiple of 1/116 (n = 116, 1 trial(s)) at the printed precision: possible different task set or rounding"
+AndroidWorld,UI-Venus-Navi-72B / UI-Venus (8/2025),"pass@1 65.9 is not a multiple of 1/116 (n = 116, 1 trial(s)) at the printed precision: possible different task set or rounding"
+MLE-bench,"Disarray / Ensemble (Claude-Opus-4.5, Claude-Sonnet-4.5, GPT-5.2-Codex, Gemini-3-Pro-Preview) (2026-02-03)",listed under Additional Leaderboard Submissions: not directly comparable (test-set feedback)
+MLE-bench,Leeroo / Gemini-3-Pro-Preview (2025-12-07),README footnote 3: incomplete seeds were padded with failing scores (different scoring)
+MLE-bench,LoongFlow / Gemini-3-Flash-Preview (2026-02-09),listed under Additional Leaderboard Submissions: not directly comparable (test-set feedback)
+MLE-bench,Operand ensemble / gpt-5 (low verbosity/effort) (2025-10-06),README footnote 3: incomplete seeds were padded with failing scores (different scoring)
+MLE-bench,PiEvolve / Gemini-3-Pro-Preview (2026-01-05),README footnote 3: incomplete seeds were padded with failing scores (different scoring)
+MLE-bench,PiEvolve / Gemini-3-Pro-Preview (2026-01-05) #2,README footnote 3: incomplete seeds were padded with failing scores (different scoring)
+HAL GAIA,rank7 HF Open Deep Research / GPT-5 Medium (August 2025),"accuracy 62.80% is not a multiple of 1/165 (n = 165, 1 run(s))"

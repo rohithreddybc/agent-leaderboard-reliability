@@ -1,0 +1,21 @@
+{
+  "n_submissions": 75,
+  "n_tasks_union": 89,
+  "n_trials_total": 32803,
+  "n_runs_total": 245,
+  "n_no_reward_trials": 926,
+  "n_task_commits": 1,
+  "cells_total": 6675,
+  "cells_absent": 0,
+  "cells_below_5": 267,
+  "trials_per_cell_distribution": {
+    "1": 267,
+    "5": 6268,
+    "6": 51,
+    "10": 89
+  },
+  "submissions_with_every_task_at_least_5": 72,
+  "duplicate_run_trialname_rows": 0,
+  "analysis_set_submissions": 72,
+  "analysis_set_rule": ">= 5 trials on every task of the 89-task union"
+}

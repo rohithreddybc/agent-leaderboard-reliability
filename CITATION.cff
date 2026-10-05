@@ -1,13 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this software or data, please cite it using these metadata."
-# Canonical BibTeX key for this work, used in the paper and the supplement: bellibatlu2026leaderboards
-title: "Are LLM Agent Leaderboards Reliable? A Survey and Multi-Run Analysis of Agent Reliability Evaluation"
-abbreviation: bellibatlu2026leaderboards
+message: "If you use this code or data, please cite the paper (preferred-citation below)."
+title: "Code and data for: Are LLM Agent Leaderboards Reliable? A Survey and Multi-Run Analysis of Agent Reliability Evaluation"
 type: software
 version: 1.0.0
-# date-released: TODO (set at release, format YYYY-MM-DD)
 repository-code: "https://github.com/rohithreddybc/agent-leaderboard-reliability"
-# doi: TODO (archive DOI, set at release)
 authors:
   - family-names: Bellibatlu
     given-names: Rohith Reddy
@@ -17,10 +13,20 @@ authors:
     given-names: Manpreet
     affiliation: Boston University
 license: MIT
-# Code: MIT (LICENSE). Derived data: CC BY 4.0 (LICENSE-data).
 keywords:
   - LLM agents
   - leaderboards
   - agent evaluation
   - reliability
   - reproducibility
+preferred-citation:
+  type: article
+  title: "Are LLM Agent Leaderboards Reliable? A Survey and Multi-Run Analysis of Agent Reliability Evaluation"
+  authors:
+    - family-names: Bellibatlu
+      given-names: Rohith Reddy
+      orcid: "https://orcid.org/0009-0003-6083-0364"
+    - family-names: Singh
+      given-names: Manpreet
+  year: 2026
+  notes: "Manuscript submitted to IEEE Access. Update with the preprint DOI and, on acceptance, the journal DOI."

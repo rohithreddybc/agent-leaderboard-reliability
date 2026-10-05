@@ -1,0 +1,12 @@
+{
+  "title": "Code and data for: Are LLM Agent Leaderboards Reliable? A Survey and Multi-Run Analysis of Agent Reliability Evaluation",
+  "upload_type": "software",
+  "description": "Code and derived data accompanying the paper \"Are LLM Agent Leaderboards Reliable? A Survey and Multi-Run Analysis of Agent Reliability Evaluation\". Contains the leaderboard census (item-sampling and fixed-task rerun bounds over 22 public agent leaderboards; derived per-entry statistics only), the Terminal-Bench 2.0 multi-run analysis, and a small pinned harness illustration. Please cite the paper, not this record.",
+  "creators": [
+    {"name": "Bellibatlu, Rohith Reddy", "orcid": "0009-0003-6083-0364"},
+    {"name": "Singh, Manpreet", "affiliation": "Boston University"}
+  ],
+  "license": "MIT",
+  "keywords": ["LLM agents", "leaderboards", "agent evaluation", "reliability", "reproducibility"],
+  "notes": "Code: MIT. Derived data: CC BY 4.0. Raw leaderboard files are not redistributed."
+}

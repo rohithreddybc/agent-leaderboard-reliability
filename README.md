@@ -90,4 +90,15 @@ Hashes of every local raw file are in `data/leaderboards_manifest.csv` (150 file
 
 ## Citation
 
-Use `CITATION.cff` (key `bellibatlu2026leaderboards`).
+If you use this code or data, please cite the paper:
+
+```bibtex
+@article{bellibatlu2026leaderboards,
+  author  = {Bellibatlu, Rohith Reddy and Singh, Manpreet},
+  title   = {Are {LLM} Agent Leaderboards Reliable? A Survey and Multi-Run Analysis of Agent Reliability Evaluation},
+  year    = {2026},
+  note    = {Manuscript submitted to IEEE Access}
+}
+```
+
+This entry will be updated with the preprint DOI and, on acceptance, the journal DOI.

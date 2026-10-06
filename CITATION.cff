@@ -4,6 +4,8 @@ title: "Code and data for: Are LLM Agent Leaderboards Reliable? A Survey and Mul
 type: software
 version: 1.0.0
 repository-code: "https://github.com/rohithreddybc/agent-leaderboard-reliability"
+doi: "10.5281/zenodo.23174950"
+date-released: 2026-10-05
 authors:
   - family-names: Bellibatlu
     given-names: Rohith Reddy

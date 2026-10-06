@@ -3,7 +3,7 @@
 Code, derived data and logs behind R. R. Bellibatlu and M. Singh, "Are LLM Agent Leaderboards Reliable? A Survey and Multi-Run Analysis of Agent Reliability Evaluation".
 Canonical citation key: `bellibatlu2026leaderboards` (see `CITATION.cff`). Version 1.0.0.
 
-Repository: https://github.com/rohithreddybc/agent-leaderboard-reliability. Archive DOI and release date: set at release (see `CITATION.cff`).
+Repository: https://github.com/rohithreddybc/agent-leaderboard-reliability. Archive (all versions): https://doi.org/10.5281/zenodo.23174950 (v1.0.0, 2026-10-05).
 
 Licences: code MIT (`LICENSE`); derived data CC BY 4.0 (`LICENSE-data`). Upstream sources keep their own terms; see "Data sources".
 

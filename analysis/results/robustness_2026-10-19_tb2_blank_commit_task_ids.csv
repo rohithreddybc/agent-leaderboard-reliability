@@ -1,0 +1,11 @@
+submission,n_tasks,n_in_universe,n_not_in_universe,n_universe_missing,n_in_commit_bearing_ids,trials_per_task_min,trials_per_task_max,task_raw_prefixes
+0error-Ledger__Claude-Opus-4.7,89,89,0,0,89,5,5,terminal-bench
+Dirac__Gemini-3-Flash-Preview,89,89,0,0,89,5,5,terminal-bench
+LemonCode__GPT-5.3-Codex,89,89,0,0,89,5,5,(none)
+LemonHarness_GPT-5.3-CodeX,89,89,0,0,89,5,5,(none)
+NexAU-AHE__gpt-5.5,89,89,0,0,89,5,5,(none)
+Terminus2__GLM-5,89,89,0,0,89,5,5,(none)
+Wecode__GPT-5.5,89,89,0,0,89,5,5,terminal-bench
+logos-latest__claude-opus-4.7,89,89,0,0,89,5,5,terminal-bench
+logos-ts__claude-opus-4.7,89,89,0,0,89,5,5,terminal-bench
+logos__claude-opus-4.6,89,89,0,0,89,5,5,terminal-bench

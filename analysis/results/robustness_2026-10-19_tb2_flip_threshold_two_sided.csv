@@ -1,0 +1,5 @@
+source,resampling,n_adjacent_pairs,n_flip_gt_5pct,share_flip_gt_5pct,n_flip_gt_2_5pct,share_flip_gt_2_5pct,n_between_2_5_and_5pct
+committed (seed 20261008),run,71,63,0.8873239436619719,65,0.9154929577464789,2
+committed (seed 20261008),task,71,70,0.9859154929577465,70,0.9859154929577465,0
+recomputed (seed 20261019),run,71,63,0.8873239436619719,65,0.9154929577464789,2
+recomputed (seed 20261019),task,71,70,0.9859154929577465,70,0.9859154929577465,0

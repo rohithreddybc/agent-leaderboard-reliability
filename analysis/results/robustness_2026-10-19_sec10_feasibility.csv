@@ -1,0 +1,89 @@
+leaderboard,rho,rho_source,f,max_rho_allowed,feasible
+SWE-bench Verified,0.5829104441070458,own,0.25,0.75,True
+SWE-bench Verified,0.5829104441070458,own,0.369,0.631,True
+SWE-bench Verified,0.5829104441070458,own,0.5,0.5,False
+SWE-bench Verified,0.5829104441070458,own,0.75,0.25,False
+SWE-bench Lite,0.5218058683500648,own,0.25,0.75,True
+SWE-bench Lite,0.5218058683500648,own,0.369,0.631,True
+SWE-bench Lite,0.5218058683500648,own,0.5,0.5,False
+SWE-bench Lite,0.5218058683500648,own,0.75,0.25,False
+SWE-bench test (full),0.5370597031905586,own,0.25,0.75,True
+SWE-bench test (full),0.5370597031905586,own,0.369,0.631,True
+SWE-bench test (full),0.5370597031905586,own,0.5,0.5,False
+SWE-bench test (full),0.5370597031905586,own,0.75,0.25,False
+Terminal-Bench 1.0,0.5169104872634351,own,0.25,0.75,True
+Terminal-Bench 1.0,0.5169104872634351,own,0.369,0.631,True
+Terminal-Bench 1.0,0.5169104872634351,own,0.5,0.5,False
+Terminal-Bench 1.0,0.5169104872634351,own,0.75,0.25,False
+Terminal-Bench 2.0,0.4214202701682522,own,0.25,0.75,True
+Terminal-Bench 2.0,0.4214202701682522,own,0.369,0.631,True
+Terminal-Bench 2.0,0.4214202701682522,own,0.5,0.5,True
+Terminal-Bench 2.0,0.4214202701682522,own,0.75,0.25,False
+TheAgentCompany,0.38851927009658077,own,0.25,0.75,True
+TheAgentCompany,0.38851927009658077,own,0.369,0.631,True
+TheAgentCompany,0.38851927009658077,own,0.5,0.5,True
+TheAgentCompany,0.38851927009658077,own,0.75,0.25,False
+tau2-bench banking_knowledge,0.5218058683500648,pooled,0.25,0.75,True
+tau2-bench banking_knowledge,0.5218058683500648,pooled,0.369,0.631,True
+tau2-bench banking_knowledge,0.5218058683500648,pooled,0.5,0.5,False
+tau2-bench banking_knowledge,0.5218058683500648,pooled,0.75,0.25,False
+HAL SWE-bench Verified Mini,0.5218058683500648,pooled,0.25,0.75,True
+HAL SWE-bench Verified Mini,0.5218058683500648,pooled,0.369,0.631,True
+HAL SWE-bench Verified Mini,0.5218058683500648,pooled,0.5,0.5,False
+HAL SWE-bench Verified Mini,0.5218058683500648,pooled,0.75,0.25,False
+SWE-bench Multilingual,0.5458724154127138,own,0.25,0.75,True
+SWE-bench Multilingual,0.5458724154127138,own,0.369,0.631,True
+SWE-bench Multilingual,0.5458724154127138,own,0.5,0.5,False
+SWE-bench Multilingual,0.5458724154127138,own,0.75,0.25,False
+tau2-bench telecom,0.5218058683500648,pooled,0.25,0.75,True
+tau2-bench telecom,0.5218058683500648,pooled,0.369,0.631,True
+tau2-bench telecom,0.5218058683500648,pooled,0.5,0.5,False
+tau2-bench telecom,0.5218058683500648,pooled,0.75,0.25,False
+AppWorld test_normal,0.5218058683500648,pooled,0.25,0.75,True
+AppWorld test_normal,0.5218058683500648,pooled,0.369,0.631,True
+AppWorld test_normal,0.5218058683500648,pooled,0.5,0.5,False
+AppWorld test_normal,0.5218058683500648,pooled,0.75,0.25,False
+AppWorld test_challenge,0.5218058683500648,pooled,0.25,0.75,True
+AppWorld test_challenge,0.5218058683500648,pooled,0.369,0.631,True
+AppWorld test_challenge,0.5218058683500648,pooled,0.5,0.5,False
+AppWorld test_challenge,0.5218058683500648,pooled,0.75,0.25,False
+WebArena (BrowserGym),0.5218058683500648,pooled,0.25,0.75,True
+WebArena (BrowserGym),0.5218058683500648,pooled,0.369,0.631,True
+WebArena (BrowserGym),0.5218058683500648,pooled,0.5,0.5,False
+WebArena (BrowserGym),0.5218058683500648,pooled,0.75,0.25,False
+WebArena (Google Sheet),0.5218058683500648,pooled,0.25,0.75,True
+WebArena (Google Sheet),0.5218058683500648,pooled,0.369,0.631,True
+WebArena (Google Sheet),0.5218058683500648,pooled,0.5,0.5,False
+WebArena (Google Sheet),0.5218058683500648,pooled,0.75,0.25,False
+WorkArena L1,0.5218058683500648,pooled,0.25,0.75,True
+WorkArena L1,0.5218058683500648,pooled,0.369,0.631,True
+WorkArena L1,0.5218058683500648,pooled,0.5,0.5,False
+WorkArena L1,0.5218058683500648,pooled,0.75,0.25,False
+WorkArena L2,0.5218058683500648,pooled,0.25,0.75,True
+WorkArena L2,0.5218058683500648,pooled,0.369,0.631,True
+WorkArena L2,0.5218058683500648,pooled,0.5,0.5,False
+WorkArena L2,0.5218058683500648,pooled,0.75,0.25,False
+AndroidWorld,0.5218058683500648,pooled,0.25,0.75,True
+AndroidWorld,0.5218058683500648,pooled,0.369,0.631,True
+AndroidWorld,0.5218058683500648,pooled,0.5,0.5,False
+AndroidWorld,0.5218058683500648,pooled,0.75,0.25,False
+MLE-bench,0.5218058683500648,pooled,0.25,0.75,True
+MLE-bench,0.5218058683500648,pooled,0.369,0.631,True
+MLE-bench,0.5218058683500648,pooled,0.5,0.5,False
+MLE-bench,0.5218058683500648,pooled,0.75,0.25,False
+HAL GAIA,0.5218058683500648,pooled,0.25,0.75,True
+HAL GAIA,0.5218058683500648,pooled,0.369,0.631,True
+HAL GAIA,0.5218058683500648,pooled,0.5,0.5,False
+HAL GAIA,0.5218058683500648,pooled,0.75,0.25,False
+HAL SciCode,0.5218058683500648,pooled,0.25,0.75,True
+HAL SciCode,0.5218058683500648,pooled,0.369,0.631,True
+HAL SciCode,0.5218058683500648,pooled,0.5,0.5,False
+HAL SciCode,0.5218058683500648,pooled,0.75,0.25,False
+HAL ScienceAgentBench,0.5218058683500648,pooled,0.25,0.75,True
+HAL ScienceAgentBench,0.5218058683500648,pooled,0.369,0.631,True
+HAL ScienceAgentBench,0.5218058683500648,pooled,0.5,0.5,False
+HAL ScienceAgentBench,0.5218058683500648,pooled,0.75,0.25,False
+HAL USACO,0.5218058683500648,pooled,0.25,0.75,True
+HAL USACO,0.5218058683500648,pooled,0.369,0.631,True
+HAL USACO,0.5218058683500648,pooled,0.5,0.5,False
+HAL USACO,0.5218058683500648,pooled,0.75,0.25,False

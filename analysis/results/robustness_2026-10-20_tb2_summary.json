@@ -1,0 +1,29 @@
+{
+  "seed": 20261020,
+  "n_submissions": 20,
+  "n_adjacent_pairs": 19,
+  "n_boot": 10000,
+  "flip_threshold": 0.05,
+  "sd_whole_run_median_pp": 0.7763514433627763,
+  "sd_within_task_median_pp": 1.1987871389581974,
+  "ratio_median": 0.6811386115985998,
+  "ratio_min": 0.20009653977565023,
+  "ratio_max": 1.611731646908984,
+  "n_ratio_gt_1": 5,
+  "ratio_matched_median": 0.6811386115985998,
+  "n_ratio_matched_gt_1": 5,
+  "analytic_ratio_median": 0.6809650839343087,
+  "n_analytic_ratio_gt_1": 5,
+  "flip_gt_whole_run": 14,
+  "flip_gt_within_task": 17,
+  "flip_gt_within_task_matched": 17,
+  "pairs_flip_class_differs": 3,
+  "consistency": {
+    "same_set": true,
+    "n_committed": 20,
+    "n_here": 20,
+    "max_abs_diff_ratio": 6.661338147750939e-16,
+    "only_committed": [],
+    "only_here": []
+  }
+}

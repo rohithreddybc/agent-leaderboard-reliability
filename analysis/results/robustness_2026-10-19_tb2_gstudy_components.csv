@@ -1,0 +1,23 @@
+set,model,component,mean_square,df,raw_estimate,variance_component,share_of_total
+balanced subset of the 72,3-way,systems,17.27006583385675,69.0,0.037645316131515456,0.037645316131515456,0.1599709895699522
+balanced subset of the 72,3-way,tasks,23.509157303370788,88.0,0.06614055887932294,0.06614055887932294,0.2810594183263416
+balanced subset of the 72,3-way,runs (trial index),0.3121669341894053,4.0,1.0714127103965754e-05,1.0714127103965754e-05,4.552889154156376e-05
+balanced subset of the 72,3-way,systems x tasks,0.3530744918654054,6072.0,0.05587388734860645,0.05587388734860645,0.23743195618415408
+balanced subset of the 72,3-way,systems x runs,0.238530718589341,276.0,0.0018519737468198636,0.0018519737468198636,0.007869825608618665
+balanced subset of the 72,3-way,tasks x runs,0.08059225886473077,352.0,9.838862489082326e-05,9.838862489082326e-05,0.00041809519227374386
+balanced subset of the 72,3-way,"systems x tasks x runs, residual",0.07370505512237314,24288.0,0.07370505512237314,0.07370505512237314,0.31320418622711826
+balanced subset of the 72,2-way replicated,systems,,,0.038015710880879426,0.038015710880879426,0.1615464256976148
+balanced subset of the 72,2-way replicated,tasks,,,0.06616023660430109,0.06616023660430109,0.2811455974142787
+balanced subset of the 72,2-way replicated,systems x tasks,,,0.05548167204884352,0.05548167204884352,0.2357674130914632
+balanced subset of the 72,2-way replicated,within cell (runs and residual),,,0.07566613162118781,0.07566613162118781,0.3215405637966433
+"balanced subset, without flagged and blank-commit submissions",3-way,systems,17.769100488795786,59.0,0.03906071642919386,0.03906071642919386,0.16433406338369996
+"balanced subset, without flagged and blank-commit submissions",3-way,tasks,21.581096356826695,88.0,0.07078603354050889,0.07078603354050889,0.2978070446714224
+"balanced subset, without flagged and blank-commit submissions",3-way,runs (trial index),0.07784644194756536,4.0,-9.384936779718762e-06,0.0,0.0
+"balanced subset, without flagged and blank-commit submissions",3-way,systems x tasks,0.3392956608553638,5192.0,0.05302206145438387,0.05302206145438387,0.22307145399071168
+"balanced subset, without flagged and blank-commit submissions",3-way,systems x runs,0.12197137053259698,236.0,0.000536921538754523,0.000536921538754523,0.00225890629378762
+"balanced subset, without flagged and blank-commit submissions",3-way,tasks x runs,0.080175987402111,352.0,9.984389697777623e-05,9.984389697777623e-05,0.00042005766392339857
+"balanced subset, without flagged and blank-commit submissions",3-way,"systems x tasks x runs, residual",0.07418535358344443,20768.0,0.07418535358344443,0.07418535358344443,0.31210847399645486
+"balanced subset, without flagged and blank-commit submissions",2-way replicated,systems,,,0.03916810073694477,0.03916810073694477,0.16479104990151325
+"balanced subset, without flagged and blank-commit submissions",2-way replicated,tasks,,,0.07080600231990444,0.07080600231990444,0.29790046599375114
+"balanced subset, without flagged and blank-commit submissions",2-way replicated,systems x tasks,,,0.052896585354593365,0.052896585354593365,0.22255058766651833
+"balanced subset, without flagged and blank-commit submissions",2-way replicated,within cell (runs and residual),,,0.074812734082397,0.074812734082397,0.3147578964382173

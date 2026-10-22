@@ -1,0 +1,11 @@
+{
+  "n_submissions": 72,
+  "n_zero_variance": 1,
+  "zero_variance_submissions": [
+    "MAYA__Claude-4.5-sonnet"
+  ],
+  "reps": 1000,
+  "reps_all": 1000,
+  "n_boot": 2000,
+  "seed": 20261007
+}

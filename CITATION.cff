@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper (preferred-citation below)."
-title: "Code and data for: Are LLM Agent Leaderboards Reliable? A Survey and Multi-Run Analysis of Agent Reliability Evaluation"
+title: "Code and data for: LLM Agent Leaderboards Often Cannot Separate Their Top Two Entries"
 type: software
-version: 1.0.0
+version: 1.1.0
 repository-code: "https://github.com/rohithreddybc/agent-leaderboard-reliability"
 doi: "10.5281/zenodo.23174950"
-date-released: 2026-10-05
+date-released: 2026-10-21
 authors:
   - family-names: Bellibatlu
     given-names: Rohith Reddy
@@ -23,7 +23,7 @@ keywords:
   - reproducibility
 preferred-citation:
   type: article
-  title: "Are LLM Agent Leaderboards Reliable? A Survey and Multi-Run Analysis of Agent Reliability Evaluation"
+  title: "LLM Agent Leaderboards Often Cannot Separate Their Top Two Entries"
   authors:
     - family-names: Bellibatlu
       given-names: Rohith Reddy

@@ -1,0 +1,23 @@
+leaderboard,entries,single-run,averaged,selection-based,unknown,dropped,retained,board_kept,tiers_full_kadj,tiers_subset,adj_below_subset,adj_pairs_subset,share_adj_below_subset,sep12_subset,sep15_subset,tiers_subset_rho0,adj_below_subset_rho0,adj_pairs_subset_rho0,share_adj_below_subset_rho0,sep12_subset_rho0,sep15_subset_rho0
+SWE-bench Verified,171,89,0,82,0,82,89,True,21,18.0,81.0,88.0,0.9204545454545454,False,False,13.0,83.0,88.0,0.9431818181818182,False,False
+SWE-bench Lite,84,74,0,10,0,10,74,True,11,10.0,70.0,73.0,0.958904109589041,False,True,9.0,72.0,73.0,0.9863013698630136,False,True
+SWE-bench test (full),23,21,0,2,0,2,21,True,17,15.0,7.0,20.0,0.35,True,True,13.0,10.0,20.0,0.5,True,True
+Terminal-Bench 1.0,26,0,26,0,0,0,26,True,8,8.0,22.0,25.0,0.88,False,False,4.0,25.0,25.0,1.0,False,False
+Terminal-Bench 2.0,75,3,72,0,0,0,75,True,11,11.0,73.0,74.0,0.9864864864864865,False,True,7.0,74.0,74.0,1.0,False,False
+TheAgentCompany,16,16,0,0,0,0,16,True,6,6.0,13.0,15.0,0.8666666666666667,True,True,4.0,14.0,15.0,0.9333333333333333,False,True
+tau2-bench banking_knowledge,27,0,27,0,0,0,27,True,7,7.0,24.0,26.0,0.9230769230769231,True,True,4.0,26.0,26.0,1.0,False,False
+HAL SWE-bench Verified Mini,33,31,2,0,0,0,33,True,6,6.0,31.0,32.0,0.96875,False,True,5.0,32.0,32.0,1.0,False,False
+SWE-bench Multilingual,13,13,0,0,0,0,13,True,4,4.0,10.0,12.0,0.8333333333333334,False,False,3.0,11.0,12.0,0.9166666666666666,False,False
+tau2-bench telecom,16,2,14,0,0,0,16,True,8,8.0,10.0,15.0,0.6666666666666666,False,True,6.0,13.0,15.0,0.8666666666666667,False,True
+AppWorld test_normal,24,24,0,0,0,0,24,True,11,11.0,17.0,23.0,0.7391304347826086,True,True,9.0,18.0,23.0,0.782608695652174,True,True
+AppWorld test_challenge,23,23,0,0,0,0,23,True,14,14.0,11.0,22.0,0.5,True,True,12.0,13.0,22.0,0.5909090909090909,True,True
+WebArena (BrowserGym),11,11,0,0,0,0,11,True,5,5.0,6.0,10.0,0.6,False,True,5.0,7.0,10.0,0.7,False,True
+WebArena (Google Sheet),43,43,0,0,0,0,43,True,21,21.0,33.0,42.0,0.7857142857142857,False,True,16.0,39.0,42.0,0.9285714285714286,False,True
+WorkArena L1,14,14,0,0,0,0,14,True,6,6.0,12.0,13.0,0.9230769230769231,False,True,4.0,12.0,13.0,0.9230769230769231,False,True
+WorkArena L2,13,13,0,0,0,0,13,True,7,7.0,8.0,12.0,0.6666666666666666,True,True,5.0,10.0,12.0,0.8333333333333334,True,True
+AndroidWorld,39,35,0,0,4,4,35,True,8,8.0,34.0,34.0,1.0,False,False,7.0,34.0,34.0,1.0,False,False
+MLE-bench,24,0,0,0,24,24,0,False,6,,,,,,,,,,,,
+HAL GAIA,31,29,2,0,0,0,31,True,7,7.0,29.0,30.0,0.9666666666666667,False,True,5.0,29.0,30.0,0.9666666666666667,False,True
+HAL SciCode,33,32,1,0,0,0,33,True,2,2.0,32.0,32.0,1.0,False,False,2.0,32.0,32.0,1.0,False,False
+HAL ScienceAgentBench,23,23,0,0,0,0,23,True,5,5.0,21.0,22.0,0.9545454545454546,False,False,4.0,21.0,22.0,0.9545454545454546,False,False
+HAL USACO,13,13,0,0,0,0,13,True,5,5.0,9.0,12.0,0.75,False,True,4.0,10.0,12.0,0.8333333333333334,False,True

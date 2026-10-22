@@ -1,0 +1,485 @@
+f_label,f,form,leaderboard,rho,feasible,n_tiers,sep12,sep15,share_adjacent_below
+sweep 0.25,0.25,k-adjusted,SWE-bench Verified,0.5829104441070458,True,26,False,False,0.9529411764705882
+sweep 0.25,0.25,k-adjusted,SWE-bench Lite,0.5218058683500648,True,16,False,True,0.9518072289156626
+sweep 0.25,0.25,k-adjusted,SWE-bench test (full),0.5370597031905586,True,17,True,True,0.3181818181818182
+sweep 0.25,0.25,k-adjusted,Terminal-Bench 1.0,0.5169104872634351,True,10,False,True,0.84
+sweep 0.25,0.25,k-adjusted,Terminal-Bench 2.0,0.4214202701682522,True,18,False,True,0.9054054054054054
+sweep 0.25,0.25,k-adjusted,TheAgentCompany,0.38851927009658077,True,8,True,True,0.8
+sweep 0.25,0.25,k-adjusted,tau2-bench banking_knowledge,0.5218058683500648,True,9,True,True,0.7692307692307693
+sweep 0.25,0.25,k-adjusted,HAL SWE-bench Verified Mini,0.5218058683500648,True,9,False,True,0.90625
+sweep 0.25,0.25,k-adjusted,SWE-bench Multilingual,0.5458724154127138,True,5,False,True,0.8333333333333334
+sweep 0.25,0.25,k-adjusted,tau2-bench telecom,0.5218058683500648,True,10,False,True,0.6
+sweep 0.25,0.25,k-adjusted,AppWorld test_normal,0.5218058683500648,True,13,True,True,0.6521739130434783
+sweep 0.25,0.25,k-adjusted,AppWorld test_challenge,0.5218058683500648,True,14,True,True,0.5
+sweep 0.25,0.25,k-adjusted,WebArena (BrowserGym),0.5218058683500648,True,7,True,True,0.5
+sweep 0.25,0.25,k-adjusted,WebArena (Google Sheet),0.5218058683500648,True,27,True,True,0.5238095238095238
+sweep 0.25,0.25,k-adjusted,WorkArena L1,0.5218058683500648,True,6,False,True,0.7692307692307693
+sweep 0.25,0.25,k-adjusted,WorkArena L2,0.5218058683500648,True,8,True,True,0.5
+sweep 0.25,0.25,k-adjusted,AndroidWorld,0.5218058683500648,True,14,False,True,0.8421052631578947
+sweep 0.25,0.25,k-adjusted,MLE-bench,0.5218058683500648,True,8,False,False,0.9565217391304348
+sweep 0.25,0.25,k-adjusted,HAL GAIA,0.5218058683500648,True,8,False,True,0.9333333333333333
+sweep 0.25,0.25,k-adjusted,HAL SciCode,0.5218058683500648,True,4,False,False,0.96875
+sweep 0.25,0.25,k-adjusted,HAL ScienceAgentBench,0.5218058683500648,True,6,False,False,0.9545454545454546
+sweep 0.25,0.25,k-adjusted,HAL USACO,0.5218058683500648,True,7,True,True,0.6666666666666666
+sweep 0.25,0.25,single-run,SWE-bench Verified,0.5829104441070458,True,26,False,False,0.9529411764705882
+sweep 0.25,0.25,single-run,SWE-bench Lite,0.5218058683500648,True,16,False,True,0.9518072289156626
+sweep 0.25,0.25,single-run,SWE-bench test (full),0.5370597031905586,True,17,True,True,0.3181818181818182
+sweep 0.25,0.25,single-run,Terminal-Bench 1.0,0.5169104872634351,True,7,False,False,0.88
+sweep 0.25,0.25,single-run,Terminal-Bench 2.0,0.4214202701682522,True,11,False,True,0.9864864864864865
+sweep 0.25,0.25,single-run,TheAgentCompany,0.38851927009658077,True,8,True,True,0.8
+sweep 0.25,0.25,single-run,tau2-bench banking_knowledge,0.5218058683500648,True,7,False,True,0.9615384615384616
+sweep 0.25,0.25,single-run,HAL SWE-bench Verified Mini,0.5218058683500648,True,9,False,True,0.90625
+sweep 0.25,0.25,single-run,SWE-bench Multilingual,0.5458724154127138,True,5,False,True,0.8333333333333334
+sweep 0.25,0.25,single-run,tau2-bench telecom,0.5218058683500648,True,8,False,True,0.6666666666666666
+sweep 0.25,0.25,single-run,AppWorld test_normal,0.5218058683500648,True,13,True,True,0.6521739130434783
+sweep 0.25,0.25,single-run,AppWorld test_challenge,0.5218058683500648,True,14,True,True,0.5
+sweep 0.25,0.25,single-run,WebArena (BrowserGym),0.5218058683500648,True,7,True,True,0.5
+sweep 0.25,0.25,single-run,WebArena (Google Sheet),0.5218058683500648,True,27,True,True,0.5238095238095238
+sweep 0.25,0.25,single-run,WorkArena L1,0.5218058683500648,True,6,False,True,0.7692307692307693
+sweep 0.25,0.25,single-run,WorkArena L2,0.5218058683500648,True,8,True,True,0.5
+sweep 0.25,0.25,single-run,AndroidWorld,0.5218058683500648,True,14,False,True,0.8421052631578947
+sweep 0.25,0.25,single-run,MLE-bench,0.5218058683500648,True,8,False,False,0.9565217391304348
+sweep 0.25,0.25,single-run,HAL GAIA,0.5218058683500648,True,8,False,True,0.9333333333333333
+sweep 0.25,0.25,single-run,HAL SciCode,0.5218058683500648,True,4,False,False,0.96875
+sweep 0.25,0.25,single-run,HAL ScienceAgentBench,0.5218058683500648,True,6,False,False,0.9545454545454546
+sweep 0.25,0.25,single-run,HAL USACO,0.5218058683500648,True,7,True,True,0.6666666666666666
+sweep 0.369,0.369,k-adjusted,SWE-bench Verified,0.5829104441070458,True,22,False,False,0.9647058823529412
+sweep 0.369,0.369,k-adjusted,SWE-bench Lite,0.5218058683500648,True,13,False,True,0.9759036144578314
+sweep 0.369,0.369,k-adjusted,SWE-bench test (full),0.5370597031905586,True,17,True,True,0.3181818181818182
+sweep 0.369,0.369,k-adjusted,Terminal-Bench 1.0,0.5169104872634351,True,10,False,True,0.88
+sweep 0.369,0.369,k-adjusted,Terminal-Bench 2.0,0.4214202701682522,True,17,False,True,0.9324324324324325
+sweep 0.369,0.369,k-adjusted,TheAgentCompany,0.38851927009658077,True,7,True,True,0.8666666666666667
+sweep 0.369,0.369,k-adjusted,tau2-bench banking_knowledge,0.5218058683500648,True,8,True,True,0.8076923076923077
+sweep 0.369,0.369,k-adjusted,HAL SWE-bench Verified Mini,0.5218058683500648,True,7,False,True,0.96875
+sweep 0.369,0.369,k-adjusted,SWE-bench Multilingual,0.5458724154127138,True,4,False,False,0.8333333333333334
+sweep 0.369,0.369,k-adjusted,tau2-bench telecom,0.5218058683500648,True,9,False,True,0.6
+sweep 0.369,0.369,k-adjusted,AppWorld test_normal,0.5218058683500648,True,13,True,True,0.6521739130434783
+sweep 0.369,0.369,k-adjusted,AppWorld test_challenge,0.5218058683500648,True,14,True,True,0.5
+sweep 0.369,0.369,k-adjusted,WebArena (BrowserGym),0.5218058683500648,True,6,False,True,0.6
+sweep 0.369,0.369,k-adjusted,WebArena (Google Sheet),0.5218058683500648,True,22,True,True,0.6666666666666666
+sweep 0.369,0.369,k-adjusted,WorkArena L1,0.5218058683500648,True,6,False,True,0.9230769230769231
+sweep 0.369,0.369,k-adjusted,WorkArena L2,0.5218058683500648,True,7,True,True,0.6666666666666666
+sweep 0.369,0.369,k-adjusted,AndroidWorld,0.5218058683500648,True,10,False,True,0.9473684210526315
+sweep 0.369,0.369,k-adjusted,MLE-bench,0.5218058683500648,True,7,False,False,0.9565217391304348
+sweep 0.369,0.369,k-adjusted,HAL GAIA,0.5218058683500648,True,7,False,True,0.9333333333333333
+sweep 0.369,0.369,k-adjusted,HAL SciCode,0.5218058683500648,True,3,False,False,1.0
+sweep 0.369,0.369,k-adjusted,HAL ScienceAgentBench,0.5218058683500648,True,5,False,False,0.9545454545454546
+sweep 0.369,0.369,k-adjusted,HAL USACO,0.5218058683500648,True,5,False,True,0.75
+sweep 0.369,0.369,single-run,SWE-bench Verified,0.5829104441070458,True,22,False,False,0.9647058823529412
+sweep 0.369,0.369,single-run,SWE-bench Lite,0.5218058683500648,True,13,False,True,0.9759036144578314
+sweep 0.369,0.369,single-run,SWE-bench test (full),0.5370597031905586,True,17,True,True,0.3181818181818182
+sweep 0.369,0.369,single-run,Terminal-Bench 1.0,0.5169104872634351,True,6,False,False,0.96
+sweep 0.369,0.369,single-run,Terminal-Bench 2.0,0.4214202701682522,True,9,False,False,0.9864864864864865
+sweep 0.369,0.369,single-run,TheAgentCompany,0.38851927009658077,True,7,True,True,0.8666666666666667
+sweep 0.369,0.369,single-run,tau2-bench banking_knowledge,0.5218058683500648,True,5,False,True,1.0
+sweep 0.369,0.369,single-run,HAL SWE-bench Verified Mini,0.5218058683500648,True,6,False,True,0.96875
+sweep 0.369,0.369,single-run,SWE-bench Multilingual,0.5458724154127138,True,4,False,False,0.8333333333333334
+sweep 0.369,0.369,single-run,tau2-bench telecom,0.5218058683500648,True,7,False,True,0.8
+sweep 0.369,0.369,single-run,AppWorld test_normal,0.5218058683500648,True,13,True,True,0.6521739130434783
+sweep 0.369,0.369,single-run,AppWorld test_challenge,0.5218058683500648,True,14,True,True,0.5
+sweep 0.369,0.369,single-run,WebArena (BrowserGym),0.5218058683500648,True,6,False,True,0.6
+sweep 0.369,0.369,single-run,WebArena (Google Sheet),0.5218058683500648,True,22,True,True,0.6666666666666666
+sweep 0.369,0.369,single-run,WorkArena L1,0.5218058683500648,True,6,False,True,0.9230769230769231
+sweep 0.369,0.369,single-run,WorkArena L2,0.5218058683500648,True,7,True,True,0.6666666666666666
+sweep 0.369,0.369,single-run,AndroidWorld,0.5218058683500648,True,10,False,True,0.9473684210526315
+sweep 0.369,0.369,single-run,MLE-bench,0.5218058683500648,True,7,False,False,0.9565217391304348
+sweep 0.369,0.369,single-run,HAL GAIA,0.5218058683500648,True,7,False,True,0.9333333333333333
+sweep 0.369,0.369,single-run,HAL SciCode,0.5218058683500648,True,3,False,False,1.0
+sweep 0.369,0.369,single-run,HAL ScienceAgentBench,0.5218058683500648,True,5,False,False,0.9545454545454546
+sweep 0.369,0.369,single-run,HAL USACO,0.5218058683500648,True,5,False,True,0.75
+sweep 0.5,0.5,k-adjusted,SWE-bench Verified,0.5829104441070458,False,19,False,False,0.9705882352941176
+sweep 0.5,0.5,k-adjusted,SWE-bench Lite,0.5218058683500648,False,11,False,False,0.9759036144578314
+sweep 0.5,0.5,k-adjusted,SWE-bench test (full),0.5370597031905586,False,17,True,True,0.36363636363636365
+sweep 0.5,0.5,k-adjusted,Terminal-Bench 1.0,0.5169104872634351,False,9,False,True,0.88
+sweep 0.5,0.5,k-adjusted,Terminal-Bench 2.0,0.4214202701682522,True,16,False,True,0.9459459459459459
+sweep 0.5,0.5,k-adjusted,TheAgentCompany,0.38851927009658077,True,6,True,True,0.8666666666666667
+sweep 0.5,0.5,k-adjusted,tau2-bench banking_knowledge,0.5218058683500648,False,8,True,True,0.8461538461538461
+sweep 0.5,0.5,k-adjusted,HAL SWE-bench Verified Mini,0.5218058683500648,False,6,False,True,0.96875
+sweep 0.5,0.5,k-adjusted,SWE-bench Multilingual,0.5458724154127138,False,4,False,False,0.8333333333333334
+sweep 0.5,0.5,k-adjusted,tau2-bench telecom,0.5218058683500648,False,9,False,True,0.6
+sweep 0.5,0.5,k-adjusted,AppWorld test_normal,0.5218058683500648,False,11,True,True,0.7391304347826086
+sweep 0.5,0.5,k-adjusted,AppWorld test_challenge,0.5218058683500648,False,14,True,True,0.5
+sweep 0.5,0.5,k-adjusted,WebArena (BrowserGym),0.5218058683500648,False,5,False,True,0.6
+sweep 0.5,0.5,k-adjusted,WebArena (Google Sheet),0.5218058683500648,False,22,False,True,0.7380952380952381
+sweep 0.5,0.5,k-adjusted,WorkArena L1,0.5218058683500648,False,6,False,True,0.9230769230769231
+sweep 0.5,0.5,k-adjusted,WorkArena L2,0.5218058683500648,False,7,True,True,0.6666666666666666
+sweep 0.5,0.5,k-adjusted,AndroidWorld,0.5218058683500648,False,9,False,True,1.0
+sweep 0.5,0.5,k-adjusted,MLE-bench,0.5218058683500648,False,6,False,False,0.9565217391304348
+sweep 0.5,0.5,k-adjusted,HAL GAIA,0.5218058683500648,False,7,False,True,0.9666666666666667
+sweep 0.5,0.5,k-adjusted,HAL SciCode,0.5218058683500648,False,3,False,False,1.0
+sweep 0.5,0.5,k-adjusted,HAL ScienceAgentBench,0.5218058683500648,False,5,False,False,0.9545454545454546
+sweep 0.5,0.5,k-adjusted,HAL USACO,0.5218058683500648,False,5,False,True,0.75
+sweep 0.5,0.5,single-run,SWE-bench Verified,0.5829104441070458,False,19,False,False,0.9705882352941176
+sweep 0.5,0.5,single-run,SWE-bench Lite,0.5218058683500648,False,11,False,False,0.9759036144578314
+sweep 0.5,0.5,single-run,SWE-bench test (full),0.5370597031905586,False,17,True,True,0.36363636363636365
+sweep 0.5,0.5,single-run,Terminal-Bench 1.0,0.5169104872634351,False,5,False,False,1.0
+sweep 0.5,0.5,single-run,Terminal-Bench 2.0,0.4214202701682522,True,9,False,False,0.9864864864864865
+sweep 0.5,0.5,single-run,TheAgentCompany,0.38851927009658077,True,6,True,True,0.8666666666666667
+sweep 0.5,0.5,single-run,tau2-bench banking_knowledge,0.5218058683500648,False,5,False,True,1.0
+sweep 0.5,0.5,single-run,HAL SWE-bench Verified Mini,0.5218058683500648,False,6,False,True,0.96875
+sweep 0.5,0.5,single-run,SWE-bench Multilingual,0.5458724154127138,False,4,False,False,0.8333333333333334
+sweep 0.5,0.5,single-run,tau2-bench telecom,0.5218058683500648,False,6,False,True,0.8666666666666667
+sweep 0.5,0.5,single-run,AppWorld test_normal,0.5218058683500648,False,11,True,True,0.7391304347826086
+sweep 0.5,0.5,single-run,AppWorld test_challenge,0.5218058683500648,False,14,True,True,0.5
+sweep 0.5,0.5,single-run,WebArena (BrowserGym),0.5218058683500648,False,5,False,True,0.6
+sweep 0.5,0.5,single-run,WebArena (Google Sheet),0.5218058683500648,False,22,False,True,0.7380952380952381
+sweep 0.5,0.5,single-run,WorkArena L1,0.5218058683500648,False,6,False,True,0.9230769230769231
+sweep 0.5,0.5,single-run,WorkArena L2,0.5218058683500648,False,7,True,True,0.6666666666666666
+sweep 0.5,0.5,single-run,AndroidWorld,0.5218058683500648,False,9,False,True,1.0
+sweep 0.5,0.5,single-run,MLE-bench,0.5218058683500648,False,6,False,False,0.9565217391304348
+sweep 0.5,0.5,single-run,HAL GAIA,0.5218058683500648,False,7,False,True,0.9666666666666667
+sweep 0.5,0.5,single-run,HAL SciCode,0.5218058683500648,False,3,False,False,1.0
+sweep 0.5,0.5,single-run,HAL ScienceAgentBench,0.5218058683500648,False,5,False,False,0.9545454545454546
+sweep 0.5,0.5,single-run,HAL USACO,0.5218058683500648,False,5,False,True,0.75
+sweep 0.75,0.75,k-adjusted,SWE-bench Verified,0.5829104441070458,False,16,False,False,0.9882352941176471
+sweep 0.75,0.75,k-adjusted,SWE-bench Lite,0.5218058683500648,False,10,False,False,0.9879518072289156
+sweep 0.75,0.75,k-adjusted,SWE-bench test (full),0.5370597031905586,False,15,True,True,0.4090909090909091
+sweep 0.75,0.75,k-adjusted,Terminal-Bench 1.0,0.5169104872634351,False,8,False,False,0.88
+sweep 0.75,0.75,k-adjusted,Terminal-Bench 2.0,0.4214202701682522,False,13,False,True,0.972972972972973
+sweep 0.75,0.75,k-adjusted,TheAgentCompany,0.38851927009658077,False,6,True,True,0.8666666666666667
+sweep 0.75,0.75,k-adjusted,tau2-bench banking_knowledge,0.5218058683500648,False,7,True,True,0.9230769230769231
+sweep 0.75,0.75,k-adjusted,HAL SWE-bench Verified Mini,0.5218058683500648,False,5,False,True,0.96875
+sweep 0.75,0.75,k-adjusted,SWE-bench Multilingual,0.5458724154127138,False,3,False,False,0.9166666666666666
+sweep 0.75,0.75,k-adjusted,tau2-bench telecom,0.5218058683500648,False,8,False,True,0.6
+sweep 0.75,0.75,k-adjusted,AppWorld test_normal,0.5218058683500648,False,10,True,True,0.7391304347826086
+sweep 0.75,0.75,k-adjusted,AppWorld test_challenge,0.5218058683500648,False,13,True,True,0.5909090909090909
+sweep 0.75,0.75,k-adjusted,WebArena (BrowserGym),0.5218058683500648,False,5,False,True,0.7
+sweep 0.75,0.75,k-adjusted,WebArena (Google Sheet),0.5218058683500648,False,19,False,True,0.9285714285714286
+sweep 0.75,0.75,k-adjusted,WorkArena L1,0.5218058683500648,False,5,False,True,0.9230769230769231
+sweep 0.75,0.75,k-adjusted,WorkArena L2,0.5218058683500648,False,6,True,True,0.75
+sweep 0.75,0.75,k-adjusted,AndroidWorld,0.5218058683500648,False,8,False,True,1.0
+sweep 0.75,0.75,k-adjusted,MLE-bench,0.5218058683500648,False,6,False,False,1.0
+sweep 0.75,0.75,k-adjusted,HAL GAIA,0.5218058683500648,False,5,False,True,0.9666666666666667
+sweep 0.75,0.75,k-adjusted,HAL SciCode,0.5218058683500648,False,2,False,False,1.0
+sweep 0.75,0.75,k-adjusted,HAL ScienceAgentBench,0.5218058683500648,False,4,False,False,0.9545454545454546
+sweep 0.75,0.75,k-adjusted,HAL USACO,0.5218058683500648,False,5,False,True,0.8333333333333334
+sweep 0.75,0.75,single-run,SWE-bench Verified,0.5829104441070458,False,16,False,False,0.9882352941176471
+sweep 0.75,0.75,single-run,SWE-bench Lite,0.5218058683500648,False,10,False,False,0.9879518072289156
+sweep 0.75,0.75,single-run,SWE-bench test (full),0.5370597031905586,False,15,True,True,0.4090909090909091
+sweep 0.75,0.75,single-run,Terminal-Bench 1.0,0.5169104872634351,False,4,False,False,1.0
+sweep 0.75,0.75,single-run,Terminal-Bench 2.0,0.4214202701682522,False,7,False,False,1.0
+sweep 0.75,0.75,single-run,TheAgentCompany,0.38851927009658077,False,6,True,True,0.8666666666666667
+sweep 0.75,0.75,single-run,tau2-bench banking_knowledge,0.5218058683500648,False,4,False,False,1.0
+sweep 0.75,0.75,single-run,HAL SWE-bench Verified Mini,0.5218058683500648,False,5,False,True,1.0
+sweep 0.75,0.75,single-run,SWE-bench Multilingual,0.5458724154127138,False,3,False,False,0.9166666666666666
+sweep 0.75,0.75,single-run,tau2-bench telecom,0.5218058683500648,False,6,False,True,0.8666666666666667
+sweep 0.75,0.75,single-run,AppWorld test_normal,0.5218058683500648,False,10,True,True,0.7391304347826086
+sweep 0.75,0.75,single-run,AppWorld test_challenge,0.5218058683500648,False,13,True,True,0.5909090909090909
+sweep 0.75,0.75,single-run,WebArena (BrowserGym),0.5218058683500648,False,5,False,True,0.7
+sweep 0.75,0.75,single-run,WebArena (Google Sheet),0.5218058683500648,False,19,False,True,0.9285714285714286
+sweep 0.75,0.75,single-run,WorkArena L1,0.5218058683500648,False,5,False,True,0.9230769230769231
+sweep 0.75,0.75,single-run,WorkArena L2,0.5218058683500648,False,6,True,True,0.75
+sweep 0.75,0.75,single-run,AndroidWorld,0.5218058683500648,False,8,False,True,1.0
+sweep 0.75,0.75,single-run,MLE-bench,0.5218058683500648,False,6,False,False,1.0
+sweep 0.75,0.75,single-run,HAL GAIA,0.5218058683500648,False,5,False,True,0.9666666666666667
+sweep 0.75,0.75,single-run,HAL SciCode,0.5218058683500648,False,2,False,False,1.0
+sweep 0.75,0.75,single-run,HAL ScienceAgentBench,0.5218058683500648,False,4,False,False,0.9545454545454546
+sweep 0.75,0.75,single-run,HAL USACO,0.5218058683500648,False,5,False,True,0.8333333333333334
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,SWE-bench Verified,0.5829104441070458,True,22,False,False,0.9647058823529412
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,SWE-bench Lite,0.5218058683500648,True,13,False,True,0.9759036144578314
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,SWE-bench test (full),0.5370597031905586,True,17,True,True,0.3181818181818182
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,Terminal-Bench 1.0,0.5169104872634351,True,10,False,True,0.88
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,Terminal-Bench 2.0,0.4214202701682522,True,17,False,True,0.9324324324324325
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,TheAgentCompany,0.38851927009658077,True,7,True,True,0.8666666666666667
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,tau2-bench banking_knowledge,0.5218058683500648,True,8,True,True,0.8076923076923077
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,HAL SWE-bench Verified Mini,0.5218058683500648,True,7,False,True,0.96875
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,SWE-bench Multilingual,0.5458724154127138,True,4,False,False,0.8333333333333334
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,tau2-bench telecom,0.5218058683500648,True,9,False,True,0.6
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,AppWorld test_normal,0.5218058683500648,True,13,True,True,0.6521739130434783
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,AppWorld test_challenge,0.5218058683500648,True,14,True,True,0.5
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,WebArena (BrowserGym),0.5218058683500648,True,6,False,True,0.6
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,WebArena (Google Sheet),0.5218058683500648,True,22,True,True,0.6666666666666666
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,WorkArena L1,0.5218058683500648,True,6,False,True,0.9230769230769231
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,WorkArena L2,0.5218058683500648,True,7,True,True,0.6666666666666666
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,AndroidWorld,0.5218058683500648,True,10,False,True,0.9473684210526315
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,MLE-bench,0.5218058683500648,True,7,False,False,0.9565217391304348
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,HAL GAIA,0.5218058683500648,True,7,False,True,0.9333333333333333
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,HAL SciCode,0.5218058683500648,True,3,False,False,1.0
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,HAL ScienceAgentBench,0.5218058683500648,True,5,False,False,0.9545454545454546
+census f_TB2 (0.3689),0.36894533267343765,k-adjusted,HAL USACO,0.5218058683500648,True,5,False,True,0.75
+census f_TB2 (0.3689),0.36894533267343765,single-run,SWE-bench Verified,0.5829104441070458,True,22,False,False,0.9647058823529412
+census f_TB2 (0.3689),0.36894533267343765,single-run,SWE-bench Lite,0.5218058683500648,True,13,False,True,0.9759036144578314
+census f_TB2 (0.3689),0.36894533267343765,single-run,SWE-bench test (full),0.5370597031905586,True,17,True,True,0.3181818181818182
+census f_TB2 (0.3689),0.36894533267343765,single-run,Terminal-Bench 1.0,0.5169104872634351,True,6,False,False,0.96
+census f_TB2 (0.3689),0.36894533267343765,single-run,Terminal-Bench 2.0,0.4214202701682522,True,9,False,False,0.9864864864864865
+census f_TB2 (0.3689),0.36894533267343765,single-run,TheAgentCompany,0.38851927009658077,True,7,True,True,0.8666666666666667
+census f_TB2 (0.3689),0.36894533267343765,single-run,tau2-bench banking_knowledge,0.5218058683500648,True,5,False,True,1.0
+census f_TB2 (0.3689),0.36894533267343765,single-run,HAL SWE-bench Verified Mini,0.5218058683500648,True,6,False,True,0.96875
+census f_TB2 (0.3689),0.36894533267343765,single-run,SWE-bench Multilingual,0.5458724154127138,True,4,False,False,0.8333333333333334
+census f_TB2 (0.3689),0.36894533267343765,single-run,tau2-bench telecom,0.5218058683500648,True,7,False,True,0.8
+census f_TB2 (0.3689),0.36894533267343765,single-run,AppWorld test_normal,0.5218058683500648,True,13,True,True,0.6521739130434783
+census f_TB2 (0.3689),0.36894533267343765,single-run,AppWorld test_challenge,0.5218058683500648,True,14,True,True,0.5
+census f_TB2 (0.3689),0.36894533267343765,single-run,WebArena (BrowserGym),0.5218058683500648,True,6,False,True,0.6
+census f_TB2 (0.3689),0.36894533267343765,single-run,WebArena (Google Sheet),0.5218058683500648,True,22,True,True,0.6666666666666666
+census f_TB2 (0.3689),0.36894533267343765,single-run,WorkArena L1,0.5218058683500648,True,6,False,True,0.9230769230769231
+census f_TB2 (0.3689),0.36894533267343765,single-run,WorkArena L2,0.5218058683500648,True,7,True,True,0.6666666666666666
+census f_TB2 (0.3689),0.36894533267343765,single-run,AndroidWorld,0.5218058683500648,True,10,False,True,0.9473684210526315
+census f_TB2 (0.3689),0.36894533267343765,single-run,MLE-bench,0.5218058683500648,True,7,False,False,0.9565217391304348
+census f_TB2 (0.3689),0.36894533267343765,single-run,HAL GAIA,0.5218058683500648,True,7,False,True,0.9333333333333333
+census f_TB2 (0.3689),0.36894533267343765,single-run,HAL SciCode,0.5218058683500648,True,3,False,False,1.0
+census f_TB2 (0.3689),0.36894533267343765,single-run,HAL ScienceAgentBench,0.5218058683500648,True,5,False,False,0.9545454545454546
+census f_TB2 (0.3689),0.36894533267343765,single-run,HAL USACO,0.5218058683500648,True,5,False,True,0.75
+tau2 min,0.1714196665108304,k-adjusted,SWE-bench Verified,0.5829104441070458,True,29,False,False,0.9529411764705882
+tau2 min,0.1714196665108304,k-adjusted,SWE-bench Lite,0.5218058683500648,True,19,False,True,0.927710843373494
+tau2 min,0.1714196665108304,k-adjusted,SWE-bench test (full),0.5370597031905586,True,17,True,True,0.3181818181818182
+tau2 min,0.1714196665108304,k-adjusted,Terminal-Bench 1.0,0.5169104872634351,True,12,False,True,0.8
+tau2 min,0.1714196665108304,k-adjusted,Terminal-Bench 2.0,0.4214202701682522,True,22,True,True,0.8648648648648649
+tau2 min,0.1714196665108304,k-adjusted,TheAgentCompany,0.38851927009658077,True,8,True,True,0.8
+tau2 min,0.1714196665108304,k-adjusted,tau2-bench banking_knowledge,0.5218058683500648,True,12,True,True,0.6923076923076923
+tau2 min,0.1714196665108304,k-adjusted,HAL SWE-bench Verified Mini,0.5218058683500648,True,10,False,True,0.84375
+tau2 min,0.1714196665108304,k-adjusted,SWE-bench Multilingual,0.5458724154127138,True,5,False,True,0.8333333333333334
+tau2 min,0.1714196665108304,k-adjusted,tau2-bench telecom,0.5218058683500648,True,10,False,True,0.5333333333333333
+tau2 min,0.1714196665108304,k-adjusted,AppWorld test_normal,0.5218058683500648,True,13,True,True,0.6086956521739131
+tau2 min,0.1714196665108304,k-adjusted,AppWorld test_challenge,0.5218058683500648,True,15,True,True,0.4090909090909091
+tau2 min,0.1714196665108304,k-adjusted,WebArena (BrowserGym),0.5218058683500648,True,7,True,True,0.4
+tau2 min,0.1714196665108304,k-adjusted,WebArena (Google Sheet),0.5218058683500648,True,29,True,True,0.42857142857142855
+tau2 min,0.1714196665108304,k-adjusted,WorkArena L1,0.5218058683500648,True,7,False,True,0.7692307692307693
+tau2 min,0.1714196665108304,k-adjusted,WorkArena L2,0.5218058683500648,True,8,True,True,0.5
+tau2 min,0.1714196665108304,k-adjusted,AndroidWorld,0.5218058683500648,True,14,False,True,0.8421052631578947
+tau2 min,0.1714196665108304,k-adjusted,MLE-bench,0.5218058683500648,True,10,False,False,0.8260869565217391
+tau2 min,0.1714196665108304,k-adjusted,HAL GAIA,0.5218058683500648,True,10,True,True,0.8666666666666667
+tau2 min,0.1714196665108304,k-adjusted,HAL SciCode,0.5218058683500648,True,4,False,False,0.96875
+tau2 min,0.1714196665108304,k-adjusted,HAL ScienceAgentBench,0.5218058683500648,True,7,False,False,0.9545454545454546
+tau2 min,0.1714196665108304,k-adjusted,HAL USACO,0.5218058683500648,True,7,True,True,0.6666666666666666
+tau2 min,0.1714196665108304,single-run,SWE-bench Verified,0.5829104441070458,True,29,False,False,0.9529411764705882
+tau2 min,0.1714196665108304,single-run,SWE-bench Lite,0.5218058683500648,True,19,False,True,0.927710843373494
+tau2 min,0.1714196665108304,single-run,SWE-bench test (full),0.5370597031905586,True,17,True,True,0.3181818181818182
+tau2 min,0.1714196665108304,single-run,Terminal-Bench 1.0,0.5169104872634351,True,8,False,False,0.88
+tau2 min,0.1714196665108304,single-run,Terminal-Bench 2.0,0.4214202701682522,True,13,False,True,0.9594594594594594
+tau2 min,0.1714196665108304,single-run,TheAgentCompany,0.38851927009658077,True,8,True,True,0.8
+tau2 min,0.1714196665108304,single-run,tau2-bench banking_knowledge,0.5218058683500648,True,8,True,True,0.9230769230769231
+tau2 min,0.1714196665108304,single-run,HAL SWE-bench Verified Mini,0.5218058683500648,True,9,False,True,0.90625
+tau2 min,0.1714196665108304,single-run,SWE-bench Multilingual,0.5458724154127138,True,5,False,True,0.8333333333333334
+tau2 min,0.1714196665108304,single-run,tau2-bench telecom,0.5218058683500648,True,9,False,True,0.6
+tau2 min,0.1714196665108304,single-run,AppWorld test_normal,0.5218058683500648,True,13,True,True,0.6086956521739131
+tau2 min,0.1714196665108304,single-run,AppWorld test_challenge,0.5218058683500648,True,15,True,True,0.4090909090909091
+tau2 min,0.1714196665108304,single-run,WebArena (BrowserGym),0.5218058683500648,True,7,True,True,0.4
+tau2 min,0.1714196665108304,single-run,WebArena (Google Sheet),0.5218058683500648,True,29,True,True,0.42857142857142855
+tau2 min,0.1714196665108304,single-run,WorkArena L1,0.5218058683500648,True,7,False,True,0.7692307692307693
+tau2 min,0.1714196665108304,single-run,WorkArena L2,0.5218058683500648,True,8,True,True,0.5
+tau2 min,0.1714196665108304,single-run,AndroidWorld,0.5218058683500648,True,14,False,True,0.8421052631578947
+tau2 min,0.1714196665108304,single-run,MLE-bench,0.5218058683500648,True,10,False,False,0.8260869565217391
+tau2 min,0.1714196665108304,single-run,HAL GAIA,0.5218058683500648,True,10,False,True,0.9
+tau2 min,0.1714196665108304,single-run,HAL SciCode,0.5218058683500648,True,4,False,False,0.96875
+tau2 min,0.1714196665108304,single-run,HAL ScienceAgentBench,0.5218058683500648,True,7,False,False,0.9545454545454546
+tau2 min,0.1714196665108304,single-run,HAL USACO,0.5218058683500648,True,7,True,True,0.6666666666666666
+tau2 q25,0.3817452789255943,k-adjusted,SWE-bench Verified,0.5829104441070458,True,21,False,False,0.9647058823529412
+tau2 q25,0.3817452789255943,k-adjusted,SWE-bench Lite,0.5218058683500648,True,13,False,True,0.9759036144578314
+tau2 q25,0.3817452789255943,k-adjusted,SWE-bench test (full),0.5370597031905586,True,17,True,True,0.3181818181818182
+tau2 q25,0.3817452789255943,k-adjusted,Terminal-Bench 1.0,0.5169104872634351,True,9,False,True,0.88
+tau2 q25,0.3817452789255943,k-adjusted,Terminal-Bench 2.0,0.4214202701682522,True,17,False,True,0.9324324324324325
+tau2 q25,0.3817452789255943,k-adjusted,TheAgentCompany,0.38851927009658077,True,7,True,True,0.8666666666666667
+tau2 q25,0.3817452789255943,k-adjusted,tau2-bench banking_knowledge,0.5218058683500648,True,8,True,True,0.8076923076923077
+tau2 q25,0.3817452789255943,k-adjusted,HAL SWE-bench Verified Mini,0.5218058683500648,True,7,False,True,0.96875
+tau2 q25,0.3817452789255943,k-adjusted,SWE-bench Multilingual,0.5458724154127138,True,4,False,False,0.8333333333333334
+tau2 q25,0.3817452789255943,k-adjusted,tau2-bench telecom,0.5218058683500648,True,9,False,True,0.6
+tau2 q25,0.3817452789255943,k-adjusted,AppWorld test_normal,0.5218058683500648,True,13,True,True,0.6521739130434783
+tau2 q25,0.3817452789255943,k-adjusted,AppWorld test_challenge,0.5218058683500648,True,14,True,True,0.5
+tau2 q25,0.3817452789255943,k-adjusted,WebArena (BrowserGym),0.5218058683500648,True,6,False,True,0.6
+tau2 q25,0.3817452789255943,k-adjusted,WebArena (Google Sheet),0.5218058683500648,True,22,True,True,0.6904761904761905
+tau2 q25,0.3817452789255943,k-adjusted,WorkArena L1,0.5218058683500648,True,6,False,True,0.9230769230769231
+tau2 q25,0.3817452789255943,k-adjusted,WorkArena L2,0.5218058683500648,True,7,True,True,0.6666666666666666
+tau2 q25,0.3817452789255943,k-adjusted,AndroidWorld,0.5218058683500648,True,10,False,True,0.9473684210526315
+tau2 q25,0.3817452789255943,k-adjusted,MLE-bench,0.5218058683500648,True,7,False,False,0.9565217391304348
+tau2 q25,0.3817452789255943,k-adjusted,HAL GAIA,0.5218058683500648,True,7,False,True,0.9666666666666667
+tau2 q25,0.3817452789255943,k-adjusted,HAL SciCode,0.5218058683500648,True,3,False,False,1.0
+tau2 q25,0.3817452789255943,k-adjusted,HAL ScienceAgentBench,0.5218058683500648,True,5,False,False,0.9545454545454546
+tau2 q25,0.3817452789255943,k-adjusted,HAL USACO,0.5218058683500648,True,5,False,True,0.75
+tau2 q25,0.3817452789255943,single-run,SWE-bench Verified,0.5829104441070458,True,21,False,False,0.9647058823529412
+tau2 q25,0.3817452789255943,single-run,SWE-bench Lite,0.5218058683500648,True,13,False,True,0.9759036144578314
+tau2 q25,0.3817452789255943,single-run,SWE-bench test (full),0.5370597031905586,True,17,True,True,0.3181818181818182
+tau2 q25,0.3817452789255943,single-run,Terminal-Bench 1.0,0.5169104872634351,True,5,False,False,1.0
+tau2 q25,0.3817452789255943,single-run,Terminal-Bench 2.0,0.4214202701682522,True,9,False,False,0.9864864864864865
+tau2 q25,0.3817452789255943,single-run,TheAgentCompany,0.38851927009658077,True,7,True,True,0.8666666666666667
+tau2 q25,0.3817452789255943,single-run,tau2-bench banking_knowledge,0.5218058683500648,True,5,False,True,1.0
+tau2 q25,0.3817452789255943,single-run,HAL SWE-bench Verified Mini,0.5218058683500648,True,6,False,True,0.96875
+tau2 q25,0.3817452789255943,single-run,SWE-bench Multilingual,0.5458724154127138,True,4,False,False,0.8333333333333334
+tau2 q25,0.3817452789255943,single-run,tau2-bench telecom,0.5218058683500648,True,7,False,True,0.8
+tau2 q25,0.3817452789255943,single-run,AppWorld test_normal,0.5218058683500648,True,13,True,True,0.6521739130434783
+tau2 q25,0.3817452789255943,single-run,AppWorld test_challenge,0.5218058683500648,True,14,True,True,0.5
+tau2 q25,0.3817452789255943,single-run,WebArena (BrowserGym),0.5218058683500648,True,6,False,True,0.6
+tau2 q25,0.3817452789255943,single-run,WebArena (Google Sheet),0.5218058683500648,True,22,True,True,0.6904761904761905
+tau2 q25,0.3817452789255943,single-run,WorkArena L1,0.5218058683500648,True,6,False,True,0.9230769230769231
+tau2 q25,0.3817452789255943,single-run,WorkArena L2,0.5218058683500648,True,7,True,True,0.6666666666666666
+tau2 q25,0.3817452789255943,single-run,AndroidWorld,0.5218058683500648,True,10,False,True,0.9473684210526315
+tau2 q25,0.3817452789255943,single-run,MLE-bench,0.5218058683500648,True,7,False,False,0.9565217391304348
+tau2 q25,0.3817452789255943,single-run,HAL GAIA,0.5218058683500648,True,7,False,True,0.9666666666666667
+tau2 q25,0.3817452789255943,single-run,HAL SciCode,0.5218058683500648,True,3,False,False,1.0
+tau2 q25,0.3817452789255943,single-run,HAL ScienceAgentBench,0.5218058683500648,True,5,False,False,0.9545454545454546
+tau2 q25,0.3817452789255943,single-run,HAL USACO,0.5218058683500648,True,5,False,True,0.75
+tau2 median,0.47249310868231237,k-adjusted,SWE-bench Verified,0.5829104441070458,False,21,False,False,0.9647058823529412
+tau2 median,0.47249310868231237,k-adjusted,SWE-bench Lite,0.5218058683500648,True,12,False,False,0.9759036144578314
+tau2 median,0.47249310868231237,k-adjusted,SWE-bench test (full),0.5370597031905586,False,17,True,True,0.3181818181818182
+tau2 median,0.47249310868231237,k-adjusted,Terminal-Bench 1.0,0.5169104872634351,True,9,False,True,0.88
+tau2 median,0.47249310868231237,k-adjusted,Terminal-Bench 2.0,0.4214202701682522,True,16,False,True,0.9459459459459459
+tau2 median,0.47249310868231237,k-adjusted,TheAgentCompany,0.38851927009658077,True,6,True,True,0.8666666666666667
+tau2 median,0.47249310868231237,k-adjusted,tau2-bench banking_knowledge,0.5218058683500648,True,8,True,True,0.8461538461538461
+tau2 median,0.47249310868231237,k-adjusted,HAL SWE-bench Verified Mini,0.5218058683500648,True,6,False,True,0.96875
+tau2 median,0.47249310868231237,k-adjusted,SWE-bench Multilingual,0.5458724154127138,False,4,False,False,0.8333333333333334
+tau2 median,0.47249310868231237,k-adjusted,tau2-bench telecom,0.5218058683500648,True,9,False,True,0.6
+tau2 median,0.47249310868231237,k-adjusted,AppWorld test_normal,0.5218058683500648,True,11,True,True,0.7391304347826086
+tau2 median,0.47249310868231237,k-adjusted,AppWorld test_challenge,0.5218058683500648,True,14,True,True,0.5
+tau2 median,0.47249310868231237,k-adjusted,WebArena (BrowserGym),0.5218058683500648,True,5,False,True,0.6
+tau2 median,0.47249310868231237,k-adjusted,WebArena (Google Sheet),0.5218058683500648,True,22,False,True,0.7380952380952381
+tau2 median,0.47249310868231237,k-adjusted,WorkArena L1,0.5218058683500648,True,6,False,True,0.9230769230769231
+tau2 median,0.47249310868231237,k-adjusted,WorkArena L2,0.5218058683500648,True,7,True,True,0.6666666666666666
+tau2 median,0.47249310868231237,k-adjusted,AndroidWorld,0.5218058683500648,True,9,False,True,1.0
+tau2 median,0.47249310868231237,k-adjusted,MLE-bench,0.5218058683500648,True,6,False,False,0.9565217391304348
+tau2 median,0.47249310868231237,k-adjusted,HAL GAIA,0.5218058683500648,True,7,False,True,0.9666666666666667
+tau2 median,0.47249310868231237,k-adjusted,HAL SciCode,0.5218058683500648,True,3,False,False,1.0
+tau2 median,0.47249310868231237,k-adjusted,HAL ScienceAgentBench,0.5218058683500648,True,5,False,False,0.9545454545454546
+tau2 median,0.47249310868231237,k-adjusted,HAL USACO,0.5218058683500648,True,5,False,True,0.75
+tau2 median,0.47249310868231237,single-run,SWE-bench Verified,0.5829104441070458,False,21,False,False,0.9647058823529412
+tau2 median,0.47249310868231237,single-run,SWE-bench Lite,0.5218058683500648,True,12,False,False,0.9759036144578314
+tau2 median,0.47249310868231237,single-run,SWE-bench test (full),0.5370597031905586,False,17,True,True,0.3181818181818182
+tau2 median,0.47249310868231237,single-run,Terminal-Bench 1.0,0.5169104872634351,True,5,False,False,1.0
+tau2 median,0.47249310868231237,single-run,Terminal-Bench 2.0,0.4214202701682522,True,9,False,False,0.9864864864864865
+tau2 median,0.47249310868231237,single-run,TheAgentCompany,0.38851927009658077,True,6,True,True,0.8666666666666667
+tau2 median,0.47249310868231237,single-run,tau2-bench banking_knowledge,0.5218058683500648,True,5,False,True,1.0
+tau2 median,0.47249310868231237,single-run,HAL SWE-bench Verified Mini,0.5218058683500648,True,6,False,True,0.96875
+tau2 median,0.47249310868231237,single-run,SWE-bench Multilingual,0.5458724154127138,False,4,False,False,0.8333333333333334
+tau2 median,0.47249310868231237,single-run,tau2-bench telecom,0.5218058683500648,True,6,False,True,0.8666666666666667
+tau2 median,0.47249310868231237,single-run,AppWorld test_normal,0.5218058683500648,True,11,True,True,0.7391304347826086
+tau2 median,0.47249310868231237,single-run,AppWorld test_challenge,0.5218058683500648,True,14,True,True,0.5
+tau2 median,0.47249310868231237,single-run,WebArena (BrowserGym),0.5218058683500648,True,5,False,True,0.6
+tau2 median,0.47249310868231237,single-run,WebArena (Google Sheet),0.5218058683500648,True,22,False,True,0.7380952380952381
+tau2 median,0.47249310868231237,single-run,WorkArena L1,0.5218058683500648,True,6,False,True,0.9230769230769231
+tau2 median,0.47249310868231237,single-run,WorkArena L2,0.5218058683500648,True,7,True,True,0.6666666666666666
+tau2 median,0.47249310868231237,single-run,AndroidWorld,0.5218058683500648,True,9,False,True,1.0
+tau2 median,0.47249310868231237,single-run,MLE-bench,0.5218058683500648,True,6,False,False,0.9565217391304348
+tau2 median,0.47249310868231237,single-run,HAL GAIA,0.5218058683500648,True,7,False,True,0.9666666666666667
+tau2 median,0.47249310868231237,single-run,HAL SciCode,0.5218058683500648,True,3,False,False,1.0
+tau2 median,0.47249310868231237,single-run,HAL ScienceAgentBench,0.5218058683500648,True,5,False,False,0.9545454545454546
+tau2 median,0.47249310868231237,single-run,HAL USACO,0.5218058683500648,True,5,False,True,0.75
+tau2 q75,0.6556405992962266,k-adjusted,SWE-bench Verified,0.5829104441070458,False,18,False,False,0.9823529411764705
+tau2 q75,0.6556405992962266,k-adjusted,SWE-bench Lite,0.5218058683500648,False,10,False,False,0.9759036144578314
+tau2 q75,0.6556405992962266,k-adjusted,SWE-bench test (full),0.5370597031905586,False,15,True,True,0.4090909090909091
+tau2 q75,0.6556405992962266,k-adjusted,Terminal-Bench 1.0,0.5169104872634351,False,8,False,True,0.88
+tau2 q75,0.6556405992962266,k-adjusted,Terminal-Bench 2.0,0.4214202701682522,False,14,False,True,0.9594594594594594
+tau2 q75,0.6556405992962266,k-adjusted,TheAgentCompany,0.38851927009658077,False,6,True,True,0.8666666666666667
+tau2 q75,0.6556405992962266,k-adjusted,tau2-bench banking_knowledge,0.5218058683500648,False,8,True,True,0.9230769230769231
+tau2 q75,0.6556405992962266,k-adjusted,HAL SWE-bench Verified Mini,0.5218058683500648,False,5,False,True,0.96875
+tau2 q75,0.6556405992962266,k-adjusted,SWE-bench Multilingual,0.5458724154127138,False,4,False,False,0.9166666666666666
+tau2 q75,0.6556405992962266,k-adjusted,tau2-bench telecom,0.5218058683500648,False,8,False,True,0.6
+tau2 q75,0.6556405992962266,k-adjusted,AppWorld test_normal,0.5218058683500648,False,11,True,True,0.7391304347826086
+tau2 q75,0.6556405992962266,k-adjusted,AppWorld test_challenge,0.5218058683500648,False,14,True,True,0.5454545454545454
+tau2 q75,0.6556405992962266,k-adjusted,WebArena (BrowserGym),0.5218058683500648,False,5,False,True,0.7
+tau2 q75,0.6556405992962266,k-adjusted,WebArena (Google Sheet),0.5218058683500648,False,19,False,True,0.8809523809523809
+tau2 q75,0.6556405992962266,k-adjusted,WorkArena L1,0.5218058683500648,False,5,False,True,0.9230769230769231
+tau2 q75,0.6556405992962266,k-adjusted,WorkArena L2,0.5218058683500648,False,6,True,True,0.75
+tau2 q75,0.6556405992962266,k-adjusted,AndroidWorld,0.5218058683500648,False,8,False,True,1.0
+tau2 q75,0.6556405992962266,k-adjusted,MLE-bench,0.5218058683500648,False,6,False,False,1.0
+tau2 q75,0.6556405992962266,k-adjusted,HAL GAIA,0.5218058683500648,False,6,False,True,0.9666666666666667
+tau2 q75,0.6556405992962266,k-adjusted,HAL SciCode,0.5218058683500648,False,2,False,False,1.0
+tau2 q75,0.6556405992962266,k-adjusted,HAL ScienceAgentBench,0.5218058683500648,False,4,False,False,0.9545454545454546
+tau2 q75,0.6556405992962266,k-adjusted,HAL USACO,0.5218058683500648,False,5,False,True,0.8333333333333334
+tau2 q75,0.6556405992962266,single-run,SWE-bench Verified,0.5829104441070458,False,18,False,False,0.9823529411764705
+tau2 q75,0.6556405992962266,single-run,SWE-bench Lite,0.5218058683500648,False,10,False,False,0.9759036144578314
+tau2 q75,0.6556405992962266,single-run,SWE-bench test (full),0.5370597031905586,False,15,True,True,0.4090909090909091
+tau2 q75,0.6556405992962266,single-run,Terminal-Bench 1.0,0.5169104872634351,False,4,False,False,1.0
+tau2 q75,0.6556405992962266,single-run,Terminal-Bench 2.0,0.4214202701682522,False,7,False,False,1.0
+tau2 q75,0.6556405992962266,single-run,TheAgentCompany,0.38851927009658077,False,6,True,True,0.8666666666666667
+tau2 q75,0.6556405992962266,single-run,tau2-bench banking_knowledge,0.5218058683500648,False,4,False,False,1.0
+tau2 q75,0.6556405992962266,single-run,HAL SWE-bench Verified Mini,0.5218058683500648,False,5,False,True,1.0
+tau2 q75,0.6556405992962266,single-run,SWE-bench Multilingual,0.5458724154127138,False,4,False,False,0.9166666666666666
+tau2 q75,0.6556405992962266,single-run,tau2-bench telecom,0.5218058683500648,False,6,False,True,0.8666666666666667
+tau2 q75,0.6556405992962266,single-run,AppWorld test_normal,0.5218058683500648,False,11,True,True,0.7391304347826086
+tau2 q75,0.6556405992962266,single-run,AppWorld test_challenge,0.5218058683500648,False,14,True,True,0.5454545454545454
+tau2 q75,0.6556405992962266,single-run,WebArena (BrowserGym),0.5218058683500648,False,5,False,True,0.7
+tau2 q75,0.6556405992962266,single-run,WebArena (Google Sheet),0.5218058683500648,False,19,False,True,0.8809523809523809
+tau2 q75,0.6556405992962266,single-run,WorkArena L1,0.5218058683500648,False,5,False,True,0.9230769230769231
+tau2 q75,0.6556405992962266,single-run,WorkArena L2,0.5218058683500648,False,6,True,True,0.75
+tau2 q75,0.6556405992962266,single-run,AndroidWorld,0.5218058683500648,False,8,False,True,1.0
+tau2 q75,0.6556405992962266,single-run,MLE-bench,0.5218058683500648,False,6,False,False,1.0
+tau2 q75,0.6556405992962266,single-run,HAL GAIA,0.5218058683500648,False,6,False,True,0.9666666666666667
+tau2 q75,0.6556405992962266,single-run,HAL SciCode,0.5218058683500648,False,2,False,False,1.0
+tau2 q75,0.6556405992962266,single-run,HAL ScienceAgentBench,0.5218058683500648,False,4,False,False,0.9545454545454546
+tau2 q75,0.6556405992962266,single-run,HAL USACO,0.5218058683500648,False,5,False,True,0.8333333333333334
+tau2 max,0.9702517162471482,k-adjusted,SWE-bench Verified,0.5829104441070458,False,14,False,False,0.9941176470588236
+tau2 max,0.9702517162471482,k-adjusted,SWE-bench Lite,0.5218058683500648,False,9,False,False,0.9879518072289156
+tau2 max,0.9702517162471482,k-adjusted,SWE-bench test (full),0.5370597031905586,False,14,True,True,0.5
+tau2 max,0.9702517162471482,k-adjusted,Terminal-Bench 1.0,0.5169104872634351,False,8,False,False,0.88
+tau2 max,0.9702517162471482,k-adjusted,Terminal-Bench 2.0,0.4214202701682522,False,12,False,True,0.9864864864864865
+tau2 max,0.9702517162471482,k-adjusted,TheAgentCompany,0.38851927009658077,False,4,False,True,0.9333333333333333
+tau2 max,0.9702517162471482,k-adjusted,tau2-bench banking_knowledge,0.5218058683500648,False,7,False,True,0.9615384615384616
+tau2 max,0.9702517162471482,k-adjusted,HAL SWE-bench Verified Mini,0.5218058683500648,False,5,False,False,1.0
+tau2 max,0.9702517162471482,k-adjusted,SWE-bench Multilingual,0.5458724154127138,False,3,False,False,0.9166666666666666
+tau2 max,0.9702517162471482,k-adjusted,tau2-bench telecom,0.5218058683500648,False,7,False,True,0.7333333333333333
+tau2 max,0.9702517162471482,k-adjusted,AppWorld test_normal,0.5218058683500648,False,9,True,True,0.782608695652174
+tau2 max,0.9702517162471482,k-adjusted,AppWorld test_challenge,0.5218058683500648,False,12,True,True,0.5909090909090909
+tau2 max,0.9702517162471482,k-adjusted,WebArena (BrowserGym),0.5218058683500648,False,5,False,True,0.7
+tau2 max,0.9702517162471482,k-adjusted,WebArena (Google Sheet),0.5218058683500648,False,16,False,True,0.9285714285714286
+tau2 max,0.9702517162471482,k-adjusted,WorkArena L1,0.5218058683500648,False,4,False,True,0.9230769230769231
+tau2 max,0.9702517162471482,k-adjusted,WorkArena L2,0.5218058683500648,False,5,True,True,0.8333333333333334
+tau2 max,0.9702517162471482,k-adjusted,AndroidWorld,0.5218058683500648,False,7,False,False,1.0
+tau2 max,0.9702517162471482,k-adjusted,MLE-bench,0.5218058683500648,False,5,False,False,1.0
+tau2 max,0.9702517162471482,k-adjusted,HAL GAIA,0.5218058683500648,False,5,False,True,0.9666666666666667
+tau2 max,0.9702517162471482,k-adjusted,HAL SciCode,0.5218058683500648,False,2,False,False,1.0
+tau2 max,0.9702517162471482,k-adjusted,HAL ScienceAgentBench,0.5218058683500648,False,4,False,False,0.9545454545454546
+tau2 max,0.9702517162471482,k-adjusted,HAL USACO,0.5218058683500648,False,4,False,True,0.8333333333333334
+tau2 max,0.9702517162471482,single-run,SWE-bench Verified,0.5829104441070458,False,14,False,False,0.9941176470588236
+tau2 max,0.9702517162471482,single-run,SWE-bench Lite,0.5218058683500648,False,9,False,False,0.9879518072289156
+tau2 max,0.9702517162471482,single-run,SWE-bench test (full),0.5370597031905586,False,14,True,True,0.5
+tau2 max,0.9702517162471482,single-run,Terminal-Bench 1.0,0.5169104872634351,False,4,False,False,1.0
+tau2 max,0.9702517162471482,single-run,Terminal-Bench 2.0,0.4214202701682522,False,7,False,False,1.0
+tau2 max,0.9702517162471482,single-run,TheAgentCompany,0.38851927009658077,False,4,False,True,0.9333333333333333
+tau2 max,0.9702517162471482,single-run,tau2-bench banking_knowledge,0.5218058683500648,False,4,False,False,1.0
+tau2 max,0.9702517162471482,single-run,HAL SWE-bench Verified Mini,0.5218058683500648,False,5,False,False,1.0
+tau2 max,0.9702517162471482,single-run,SWE-bench Multilingual,0.5458724154127138,False,3,False,False,0.9166666666666666
+tau2 max,0.9702517162471482,single-run,tau2-bench telecom,0.5218058683500648,False,5,False,True,0.8666666666666667
+tau2 max,0.9702517162471482,single-run,AppWorld test_normal,0.5218058683500648,False,9,True,True,0.782608695652174
+tau2 max,0.9702517162471482,single-run,AppWorld test_challenge,0.5218058683500648,False,12,True,True,0.5909090909090909
+tau2 max,0.9702517162471482,single-run,WebArena (BrowserGym),0.5218058683500648,False,5,False,True,0.7
+tau2 max,0.9702517162471482,single-run,WebArena (Google Sheet),0.5218058683500648,False,16,False,True,0.9285714285714286
+tau2 max,0.9702517162471482,single-run,WorkArena L1,0.5218058683500648,False,4,False,True,0.9230769230769231
+tau2 max,0.9702517162471482,single-run,WorkArena L2,0.5218058683500648,False,5,True,True,0.8333333333333334
+tau2 max,0.9702517162471482,single-run,AndroidWorld,0.5218058683500648,False,7,False,False,1.0
+tau2 max,0.9702517162471482,single-run,MLE-bench,0.5218058683500648,False,5,False,False,1.0
+tau2 max,0.9702517162471482,single-run,HAL GAIA,0.5218058683500648,False,5,False,True,0.9666666666666667
+tau2 max,0.9702517162471482,single-run,HAL SciCode,0.5218058683500648,False,2,False,False,1.0
+tau2 max,0.9702517162471482,single-run,HAL ScienceAgentBench,0.5218058683500648,False,4,False,False,0.9545454545454546
+tau2 max,0.9702517162471482,single-run,HAL USACO,0.5218058683500648,False,4,False,True,0.8333333333333334
+board maximum feasible f = 1 - rho,0.41708955589295416,k-adjusted,SWE-bench Verified,0.5829104441070458,True,21,False,False,0.9647058823529412
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,SWE-bench Lite,0.5218058683500648,True,11,False,False,0.9759036144578314
+board maximum feasible f = 1 - rho,0.4629402968094414,k-adjusted,SWE-bench test (full),0.5370597031905586,True,17,True,True,0.3181818181818182
+board maximum feasible f = 1 - rho,0.48308951273656486,k-adjusted,Terminal-Bench 1.0,0.5169104872634351,True,9,False,True,0.88
+board maximum feasible f = 1 - rho,0.5785797298317479,k-adjusted,Terminal-Bench 2.0,0.4214202701682522,True,14,False,True,0.9594594594594594
+board maximum feasible f = 1 - rho,0.6114807299034193,k-adjusted,TheAgentCompany,0.38851927009658077,True,6,True,True,0.8666666666666667
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,tau2-bench banking_knowledge,0.5218058683500648,True,8,True,True,0.8461538461538461
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,HAL SWE-bench Verified Mini,0.5218058683500648,True,6,False,True,0.96875
+board maximum feasible f = 1 - rho,0.4541275845872862,k-adjusted,SWE-bench Multilingual,0.5458724154127138,True,4,False,False,0.8333333333333334
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,tau2-bench telecom,0.5218058683500648,True,9,False,True,0.6
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,AppWorld test_normal,0.5218058683500648,True,11,True,True,0.7391304347826086
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,AppWorld test_challenge,0.5218058683500648,True,14,True,True,0.5
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,WebArena (BrowserGym),0.5218058683500648,True,5,False,True,0.6
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,WebArena (Google Sheet),0.5218058683500648,True,22,False,True,0.7380952380952381
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,WorkArena L1,0.5218058683500648,True,6,False,True,0.9230769230769231
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,WorkArena L2,0.5218058683500648,True,7,True,True,0.6666666666666666
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,AndroidWorld,0.5218058683500648,True,9,False,True,1.0
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,MLE-bench,0.5218058683500648,True,6,False,False,0.9565217391304348
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,HAL GAIA,0.5218058683500648,True,7,False,True,0.9666666666666667
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,HAL SciCode,0.5218058683500648,True,3,False,False,1.0
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,HAL ScienceAgentBench,0.5218058683500648,True,5,False,False,0.9545454545454546
+board maximum feasible f = 1 - rho,0.4781941316499352,k-adjusted,HAL USACO,0.5218058683500648,True,5,False,True,0.75
+board maximum feasible f = 1 - rho,0.41708955589295416,single-run,SWE-bench Verified,0.5829104441070458,True,21,False,False,0.9647058823529412
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,SWE-bench Lite,0.5218058683500648,True,11,False,False,0.9759036144578314
+board maximum feasible f = 1 - rho,0.4629402968094414,single-run,SWE-bench test (full),0.5370597031905586,True,17,True,True,0.3181818181818182
+board maximum feasible f = 1 - rho,0.48308951273656486,single-run,Terminal-Bench 1.0,0.5169104872634351,True,5,False,False,1.0
+board maximum feasible f = 1 - rho,0.5785797298317479,single-run,Terminal-Bench 2.0,0.4214202701682522,True,8,False,False,0.9864864864864865
+board maximum feasible f = 1 - rho,0.6114807299034193,single-run,TheAgentCompany,0.38851927009658077,True,6,True,True,0.8666666666666667
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,tau2-bench banking_knowledge,0.5218058683500648,True,5,False,True,1.0
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,HAL SWE-bench Verified Mini,0.5218058683500648,True,6,False,True,0.96875
+board maximum feasible f = 1 - rho,0.4541275845872862,single-run,SWE-bench Multilingual,0.5458724154127138,True,4,False,False,0.8333333333333334
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,tau2-bench telecom,0.5218058683500648,True,6,False,True,0.8666666666666667
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,AppWorld test_normal,0.5218058683500648,True,11,True,True,0.7391304347826086
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,AppWorld test_challenge,0.5218058683500648,True,14,True,True,0.5
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,WebArena (BrowserGym),0.5218058683500648,True,5,False,True,0.6
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,WebArena (Google Sheet),0.5218058683500648,True,22,False,True,0.7380952380952381
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,WorkArena L1,0.5218058683500648,True,6,False,True,0.9230769230769231
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,WorkArena L2,0.5218058683500648,True,7,True,True,0.6666666666666666
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,AndroidWorld,0.5218058683500648,True,9,False,True,1.0
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,MLE-bench,0.5218058683500648,True,6,False,False,0.9565217391304348
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,HAL GAIA,0.5218058683500648,True,7,False,True,0.9666666666666667
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,HAL SciCode,0.5218058683500648,True,3,False,False,1.0
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,HAL ScienceAgentBench,0.5218058683500648,True,5,False,False,0.9545454545454546
+board maximum feasible f = 1 - rho,0.4781941316499352,single-run,HAL USACO,0.5218058683500648,True,5,False,True,0.75

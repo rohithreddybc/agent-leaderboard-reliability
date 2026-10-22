@@ -1,0 +1,5 @@
+submission,reason,n_trials,set
+JJAgent__Multiple,cells with 10 trials: 89,890,balanced subset of the 72
+grok-cli__grok-4.20-0309-reasoning,"cells with 5 trials: 38, 6 trials: 51",496,balanced subset of the 72
+JJAgent__Multiple,cells with 10 trials: 89,890,"balanced subset, without flagged and blank-commit submissions"
+grok-cli__grok-4.20-0309-reasoning,"cells with 5 trials: 38, 6 trials: 51",496,"balanced subset, without flagged and blank-commit submissions"

@@ -1,0 +1,25 @@
+pair_set,leaderboard,pairs,both separable,both not separable,bound only,test only,agree,agree_share,bound_separable,test_separable,pairs_mcnemar,pairs_paired_t
+adjacent (all),SWE-bench Verified,170,3,164,3,0,167,0.9823529411764705,6,3,170,0
+adjacent (all),SWE-bench Lite,83,1,81,1,0,82,0.9879518072289156,2,1,83,0
+adjacent (all),SWE-bench test (full),22,13,7,2,0,20,0.9090909090909091,15,13,22,0
+adjacent (all),SWE-bench Multilingual,12,1,10,1,0,11,0.9166666666666666,2,1,12,0
+adjacent (all),Terminal-Bench 1.0,25,0,25,0,0,25,1.0,0,0,0,25
+adjacent (all),Terminal-Bench 2.0,74,1,73,0,0,74,1.0,1,1,0,74
+adjacent (all),TheAgentCompany,15,2,13,0,0,15,1.0,2,2,15,0
+adjacent (all),ALL BOARDS,401,21,373,7,0,394,0.9825436408977556,28,21,302,99
+#1 vs #2,SWE-bench Verified,1,0,1,0,0,1,1.0,0,0,1,0
+#1 vs #2,SWE-bench Lite,1,0,1,0,0,1,1.0,0,0,1,0
+#1 vs #2,SWE-bench test (full),1,1,0,0,0,1,1.0,1,1,1,0
+#1 vs #2,SWE-bench Multilingual,1,0,1,0,0,1,1.0,0,0,1,0
+#1 vs #2,Terminal-Bench 1.0,1,0,1,0,0,1,1.0,0,0,0,1
+#1 vs #2,Terminal-Bench 2.0,1,0,1,0,0,1,1.0,0,0,0,1
+#1 vs #2,TheAgentCompany,1,1,0,0,0,1,1.0,1,1,1,0
+#1 vs #2,ALL BOARDS,7,2,5,0,0,7,1.0,2,2,5,2
+#1 vs #5,SWE-bench Verified,1,0,1,0,0,1,1.0,0,0,1,0
+#1 vs #5,SWE-bench Lite,1,0,0,0,1,0,0.0,0,1,1,0
+#1 vs #5,SWE-bench test (full),1,1,0,0,0,1,1.0,1,1,1,0
+#1 vs #5,SWE-bench Multilingual,1,0,1,0,0,1,1.0,0,0,1,0
+#1 vs #5,Terminal-Bench 1.0,1,0,1,0,0,1,1.0,0,0,0,1
+#1 vs #5,Terminal-Bench 2.0,1,0,1,0,0,1,1.0,0,0,0,1
+#1 vs #5,TheAgentCompany,1,1,0,0,0,1,1.0,1,1,1,0
+#1 vs #5,ALL BOARDS,7,2,4,0,1,6,0.8571428571428571,2,3,5,2

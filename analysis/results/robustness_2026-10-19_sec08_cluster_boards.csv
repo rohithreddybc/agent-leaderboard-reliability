@@ -1,0 +1,6 @@
+leaderboard,cluster_label,n_clusters,min_cluster_size,max_cluster_size,n_adjacent,median_ratio_cluster_over_iid,median_ratio_cluster_over_headline,adj_separable_headline,adj_separable_cluster,adj_separable_cluster_t,adj_verdicts_changed,sep12_headline,sep12_cluster,sep15_headline,sep15_cluster,tiers_headline,tiers_cluster
+SWE-bench Verified,repository prefix of the instance id,12,1,231,170,1.0265146677678072,0.9916784114776083,6,3,3,3,False,False,False,False,21,23
+SWE-bench Lite,repository prefix of the instance id,12,3,114,83,0.9493869160123649,0.9165601397750848,2,2,1,0,False,False,False,True,11,14
+SWE-bench test (full),repository prefix of the instance id,12,11,850,22,1.065033812253863,1.2710535707093327,15,12,12,3,True,True,True,True,17,14
+TheAgentCompany,task-name prefix before the first hyphen (department-like category; heuristic),11,1,69,15,0.9956226031062638,0.9001910436743724,2,2,2,0,True,True,True,True,6,7
+SWE-bench Multilingual,repository prefix of the instance id,41,1,17,12,1.175064796315211,1.1531921828611646,2,1,1,1,False,False,False,False,4,4

@@ -1,0 +1,73 @@
+submission,n_run_dirs,n_complete_runs,trials_total,trials_used,n_runs_used,var_run_means,var_independence,ratio,null_ratio_median,p_null_ratio_ge_observed,status,reason
+0error-Ledger__Claude-Opus-4.7,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Ante__Gemini-3-Pro-Preview,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Ante__Gemini-3.1-Pro-Preview,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+BashAgent__TermiGen-32B,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Capy__Claude-Opus-4.6,5,5,445,445,5,0.00012624668602449123,0.000744855447544502,0.16949152542372795,0.8775510204081632,0.953,checked,
+Capy__GPT-5.5,5,5,445,445,5,0.0003787400580734755,0.0005807347557126627,0.652173913043478,0.8612670408981563,0.6365,checked,
+ClaudeCode__GLM-4.7,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+CodeBrain-1.5__GPT-5.3-Codex,5,5,445,445,5,0.00010099734881959399,0.0006943567731347053,0.14545454545454617,0.8421052631578954,0.971,checked,
+CodeBrain-1__GPT-5.3-Codex,5,5,445,445,5,0.0009847241509910378,0.0008584774649665445,1.1470588235294135,0.8410894660894657,0.3305,checked,
+CodeBrain-1__Gemini-3-Pro-Preview,5,5,445,445,5,0.00010099734881959309,0.0008837268021714431,0.11428571428571382,0.8703703703703716,0.9845,checked,
+Codelia__GPT-5.3-Codex,5,5,445,445,5,0.00041661406388082277,0.0006059840929175609,0.6874999999999994,0.8536585365853646,0.611,checked,
+Crux__Claude-Opus-4.6,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Deep-Agents__GPT-5.2-Codex,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Dirac__Gemini-3-Flash-Preview,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Droid__Claude-Opus-4.6,5,5,445,445,5,0.0002146193662416356,0.0007953541219542986,0.26984126984126916,0.8867924528301885,0.914,checked,
+Droid__GPT-5.3-Codex,5,5,445,445,5,8.837268021714474e-05,0.0006059840929175609,0.14583333333333406,0.8421052631578956,0.965,checked,
+Forge__GPT-5.4,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Forge__Gemini-3.1-Pro-Preview,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Forge__Opus-4.6,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Gemini_CLI__Gemini-3-Flash-Preview,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Gemini_CLI__Gemini-3.1-Pro-Preview,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+IndusAGICodingAgent__MiniMax-M2.7,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+IndusAGICodingAgent__gpt-5.3-codex,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+JJAgent__Multiple,2,0,890,0,0,,,,,,cannot be checked,no run directory has exactly one trial per task (directories are task batches or hold several trials per task)
+Judy__Claude-Opus-4.6,5,5,445,445,5,0.00044186340108572054,0.0009342254765812398,0.4729729729729719,0.8524590163934425,0.771,checked,
+Judy__Gemini-3.1-Pro-Preview,5,5,445,445,5,0.0023734376972604446,0.0008963514707738922,2.6478873239436593,0.8333333333333346,0.0235,checked,
+Junie_CLI__Gemini-3-Flash-Preview-Gemini-3.1-Pro-Preview-Claude-Opus-4.6-GPT-5.3-Codex,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+LemonCode__GPT-5.3-Codex,5,5,445,445,5,0.001855826284560031,0.0012245928544375709,1.515463917525774,0.8376689189189183,0.1815,checked,
+LemonHarness_GPT-5.3-CodeX,5,5,445,445,5,0.0014139628834743088,0.0008584774649665445,1.6470588235294121,0.8545454545454547,0.1615,checked,
+MAYA__Claude-4.5-sonnet,5,5,445,445,5,0.0,0.0,,,,undefined,independence prediction is 0 (every task has identical outcomes across runs)
+MAYA__Claude-4.6-opus,5,5,445,445,5,0.000504986744097968,0.0006059840929175609,0.8333333333333345,0.8409090909090917,0.5015,checked,
+Meta-Harness__Claude-Opus-4.6,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Mux__Claude-Opus-4.6,5,5,445,445,5,0.00046711273829062004,0.0008332281277616463,0.5606060606060608,0.8636363636363635,0.693,checked,
+Mux__GPT-5.3-Codex,5,5,445,445,5,0.00016412069183183883,0.000820603459159197,0.1999999999999993,0.8304597701149421,0.9445,checked,
+NexAU-AHE__gpt-5.5,4,3,445,267,3,0.00012624668602449123,0.000547068972772798,0.23076923076922962,0.7499999999999961,0.7925,checked (subset of directories),3 of 4 run directories have exactly one trial per task
+OB-1_GPT-5.3-Codex-Claude-Opus-4.5-Claude-Opus-4.6,5,5,445,445,5,0.00010099734881959397,0.0006943567731347053,0.14545454545454614,0.8545454545454546,0.9765,checked,
+OB-1_GPT-5.4-GPT-5.3-Codex-Claude-Opus-4.5-Claude-Opus-4.6,5,5,445,445,5,0.0003534907208685769,0.0002272440348440853,1.5555555555555545,0.8888888888888846,0.19,checked,
+OpenSage__GPT-5.3-Codex,5,5,445,445,5,2.5249337204898497e-05,0.0006312334301224593,0.0400000000000002,0.8750000000000007,0.9985,checked,
+OpenSage__Gemini-3-Pro-Preview,5,5,445,445,5,0.00025249337204898305,0.0005554854185077642,0.4545454545454533,0.8775,0.781,checked,
+Polaris__Claude-Opus-4.7-GPT-5.5-Gemini-3.1-Pro,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Simplai-Agent__Claude-Sonnet-4.6,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Simple-Codex__GPT-5.3-Codex,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Terminus-KIRA__Claude-Opus-4.6,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Terminus-KIRA__Gemini-3.1-Pro-Preview,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Terminus2__Claude-Opus-4.6,2,1,445,89,1,,,,,,cannot be checked,only one run directory has exactly one trial per task
+Terminus2__DeepSeek-V3.2,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Terminus2__GLM-4.7,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Terminus2__GLM-5,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Terminus2__GPT-5.3-Codex,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Terminus2__Kimi-k2.5,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Terminus2__Minimax-m2.5,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+WOZCODE__Claude-Opus-4-7,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+Wecode__GPT-5.5,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+WozCode__Claude-Opus-4.6,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+cchuter__minimax-m2.5,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+clnkr__GPT-5.5,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+copilot-cli__claude-opus-4.6,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+dakou__qwen3-coder-480b,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+grok-cli__grok-4.20-0309-reasoning,3,0,496,0,0,,,,,,cannot be checked,no run directory has exactly one trial per task (directories are task batches or hold several trials per task)
+harness-agent__minimax-m2-7-highspeed,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+hookele__gpt5.1-codex-mini,70,0,445,0,0,,,,,,cannot be checked,no run directory has exactly one trial per task (directories are task batches or hold several trials per task)
+just-another-coding-agent__GLM-5,15,0,445,0,0,,,,,,cannot be checked,no run directory has exactly one trial per task (directories are task batches or hold several trials per task)
+little-coder__qwen3.5-9b,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+little-coder__qwen3.6-35b-a3b,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+logos-latest__claude-opus-4.7,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+logos-ts__claude-opus-4.7,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+logos__claude-opus-4.6,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+pilot-real__claude-opus-4-6,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+spoox-o-m__GPT-5-Nano,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+spoox-o-m__GPT-5.3-Codex,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+terminus-2__AfterQuery-GPT-OSS-20B,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled
+vix__claude-opus-4-7,1,0,445,0,0,,,,,,cannot be checked,one run directory holds all trials; runs within it are not labelled

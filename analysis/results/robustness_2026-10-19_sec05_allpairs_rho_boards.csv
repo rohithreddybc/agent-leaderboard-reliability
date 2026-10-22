@@ -1,0 +1,45 @@
+variant,leaderboard,rho_used,tiers_headline,tiers_variant,tiers_change,adj_below_headline,adj_below_variant,sep12_headline,sep12_variant,sep15_headline,sep15_variant
+all-pairs (own); pooled adjacent 0.5218 for the other 15,SWE-bench Verified,0.4813861232349086,21,19,-2,0.9647058823529412,0.9764705882352941,False,False,False,False
+all-pairs (own); pooled adjacent 0.5218 for the other 15,SWE-bench Lite,0.48023871862125,11,11,0,0.9759036144578314,0.9759036144578314,False,False,False,False
+all-pairs (own); pooled adjacent 0.5218 for the other 15,SWE-bench test (full),0.3741689575879366,17,16,-1,0.3181818181818182,0.36363636363636365,True,True,True,True
+all-pairs (own); pooled adjacent 0.5218 for the other 15,Terminal-Bench 1.0,0.5031958392114804,5,5,0,1.0,1.0,False,False,False,False
+all-pairs (own); pooled adjacent 0.5218 for the other 15,Terminal-Bench 2.0,0.3444778265016652,8,7,-1,0.9864864864864865,1.0,False,False,False,False
+all-pairs (own); pooled adjacent 0.5218 for the other 15,TheAgentCompany,0.2860404347242395,6,6,0,0.8666666666666667,0.8666666666666667,True,True,True,True
+all-pairs (own); pooled adjacent 0.5218 for the other 15,tau2-bench banking_knowledge,0.5218058683500648,5,5,0,1.0,1.0,False,False,True,True
+all-pairs (own); pooled adjacent 0.5218 for the other 15,HAL SWE-bench Verified Mini,0.5218058683500648,6,6,0,0.96875,0.96875,False,False,True,True
+all-pairs (own); pooled adjacent 0.5218 for the other 15,SWE-bench Multilingual,0.526338865548695,4,4,0,0.8333333333333334,0.8333333333333334,False,False,False,False
+all-pairs (own); pooled adjacent 0.5218 for the other 15,tau2-bench telecom,0.5218058683500648,6,6,0,0.8666666666666667,0.8666666666666667,False,False,True,True
+all-pairs (own); pooled adjacent 0.5218 for the other 15,AppWorld test_normal,0.5218058683500648,11,11,0,0.7391304347826086,0.7391304347826086,True,True,True,True
+all-pairs (own); pooled adjacent 0.5218 for the other 15,AppWorld test_challenge,0.5218058683500648,14,14,0,0.5,0.5,True,True,True,True
+all-pairs (own); pooled adjacent 0.5218 for the other 15,WebArena (BrowserGym),0.5218058683500648,5,5,0,0.6,0.6,False,False,True,True
+all-pairs (own); pooled adjacent 0.5218 for the other 15,WebArena (Google Sheet),0.5218058683500648,21,21,0,0.7857142857142857,0.7857142857142857,False,False,True,True
+all-pairs (own); pooled adjacent 0.5218 for the other 15,WorkArena L1,0.5218058683500648,6,6,0,0.9230769230769231,0.9230769230769231,False,False,True,True
+all-pairs (own); pooled adjacent 0.5218 for the other 15,WorkArena L2,0.5218058683500648,7,7,0,0.6666666666666666,0.6666666666666666,True,True,True,True
+all-pairs (own); pooled adjacent 0.5218 for the other 15,AndroidWorld,0.5218058683500648,8,8,0,1.0,1.0,False,False,False,False
+all-pairs (own); pooled adjacent 0.5218 for the other 15,MLE-bench,0.5218058683500648,6,6,0,0.9565217391304348,0.9565217391304348,False,False,False,False
+all-pairs (own); pooled adjacent 0.5218 for the other 15,HAL GAIA,0.5218058683500648,7,7,0,0.9666666666666667,0.9666666666666667,False,False,True,True
+all-pairs (own); pooled adjacent 0.5218 for the other 15,HAL SciCode,0.5218058683500648,2,2,0,1.0,1.0,False,False,False,False
+all-pairs (own); pooled adjacent 0.5218 for the other 15,HAL ScienceAgentBench,0.5218058683500648,5,5,0,0.9545454545454546,0.9545454545454546,False,False,False,False
+all-pairs (own); pooled adjacent 0.5218 for the other 15,HAL USACO,0.5218058683500648,5,5,0,0.75,0.75,False,False,True,True
+all-pairs (own); pooled all-pairs median for the other 15,SWE-bench Verified,0.4813861232349086,21,19,-2,0.9647058823529412,0.9764705882352941,False,False,False,False
+all-pairs (own); pooled all-pairs median for the other 15,SWE-bench Lite,0.48023871862125,11,11,0,0.9759036144578314,0.9759036144578314,False,False,False,False
+all-pairs (own); pooled all-pairs median for the other 15,SWE-bench test (full),0.3741689575879366,17,16,-1,0.3181818181818182,0.36363636363636365,True,True,True,True
+all-pairs (own); pooled all-pairs median for the other 15,Terminal-Bench 1.0,0.5031958392114804,5,5,0,1.0,1.0,False,False,False,False
+all-pairs (own); pooled all-pairs median for the other 15,Terminal-Bench 2.0,0.3444778265016652,8,7,-1,0.9864864864864865,1.0,False,False,False,False
+all-pairs (own); pooled all-pairs median for the other 15,TheAgentCompany,0.2860404347242395,6,6,0,0.8666666666666667,0.8666666666666667,True,True,True,True
+all-pairs (own); pooled all-pairs median for the other 15,tau2-bench banking_knowledge,0.48023871862125,5,5,0,1.0,1.0,False,False,True,True
+all-pairs (own); pooled all-pairs median for the other 15,HAL SWE-bench Verified Mini,0.48023871862125,6,6,0,0.96875,0.96875,False,False,True,True
+all-pairs (own); pooled all-pairs median for the other 15,SWE-bench Multilingual,0.526338865548695,4,4,0,0.8333333333333334,0.8333333333333334,False,False,False,False
+all-pairs (own); pooled all-pairs median for the other 15,tau2-bench telecom,0.48023871862125,6,6,0,0.8666666666666667,0.8666666666666667,False,False,True,True
+all-pairs (own); pooled all-pairs median for the other 15,AppWorld test_normal,0.48023871862125,11,11,0,0.7391304347826086,0.7391304347826086,True,True,True,True
+all-pairs (own); pooled all-pairs median for the other 15,AppWorld test_challenge,0.48023871862125,14,14,0,0.5,0.5,True,True,True,True
+all-pairs (own); pooled all-pairs median for the other 15,WebArena (BrowserGym),0.48023871862125,5,5,0,0.6,0.6,False,False,True,True
+all-pairs (own); pooled all-pairs median for the other 15,WebArena (Google Sheet),0.48023871862125,21,20,-1,0.7857142857142857,0.8095238095238095,False,False,True,True
+all-pairs (own); pooled all-pairs median for the other 15,WorkArena L1,0.48023871862125,6,5,-1,0.9230769230769231,0.9230769230769231,False,False,True,True
+all-pairs (own); pooled all-pairs median for the other 15,WorkArena L2,0.48023871862125,7,7,0,0.6666666666666666,0.6666666666666666,True,True,True,True
+all-pairs (own); pooled all-pairs median for the other 15,AndroidWorld,0.48023871862125,8,8,0,1.0,1.0,False,False,False,False
+all-pairs (own); pooled all-pairs median for the other 15,MLE-bench,0.48023871862125,6,6,0,0.9565217391304348,0.9565217391304348,False,False,False,False
+all-pairs (own); pooled all-pairs median for the other 15,HAL GAIA,0.48023871862125,7,7,0,0.9666666666666667,0.9666666666666667,False,False,True,True
+all-pairs (own); pooled all-pairs median for the other 15,HAL SciCode,0.48023871862125,2,2,0,1.0,1.0,False,False,False,False
+all-pairs (own); pooled all-pairs median for the other 15,HAL ScienceAgentBench,0.48023871862125,5,4,-1,0.9545454545454546,0.9545454545454546,False,False,False,False
+all-pairs (own); pooled all-pairs median for the other 15,HAL USACO,0.48023871862125,5,5,0,0.75,0.75,False,False,True,True

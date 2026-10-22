@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sepbound"
+version = "0.1.0"
+description = "Check from published leaderboard scores whether two entries are separable."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Rohith Reddy Bellibatlu", email = "rohithreddybc@gmail.com" },
+    { name = "Manpreet Singh" },
+]
+dependencies = ["numpy"]
+
+[project.optional-dependencies]
+scipy = ["scipy"]
+test = ["pytest"]
+
+[project.scripts]
+sepbound = "sepbound.__main__:main"
+
+[tool.setuptools]
+packages = ["sepbound"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

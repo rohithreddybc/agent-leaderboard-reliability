@@ -14,8 +14,7 @@ Outputs (vector PDF, one IEEE column wide, 3.5 in):
 
 Usage: python make_figures.py [--results ../results] [--out ../../paper/figures]
 
-Palette: Okabe-Ito blue and vermilion (checked with the dataviz validator:
-adjacent CVD delta-E 21.9, normal-vision delta-E 31.2, both above 3:1 contrast).
+Style and palette: ``viz_style.py`` (blue = run-to-run, orange = task-sampling in every figure).
 Schemes are also separated by marker shape and line style, so the figures read in
 greyscale.
 """
@@ -25,52 +24,14 @@ import argparse
 import json
 from pathlib import Path
 
-import matplotlib
-
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt  # noqa: E402
 import numpy as np  # noqa: E402
 import pandas as pd  # noqa: E402
 
+from viz_style import COL_W, FS, GRID, INK, INK2, MUTED, RUN, TASK, plt, save, style_axes, tint  # noqa: E402
+
 HERE = Path(__file__).resolve().parent
 SEPARABLE_THRESHOLD = 0.05  # results.md, Definitions
-COL_W = 3.5  # IEEE single-column width, inches
-
-RUN_COLOR = "#0072B2"   # run-to-run (primary estimand)
-TASK_COLOR = "#D55E00"  # task-sampling (secondary estimand)
-INK = "#222222"
-MUTED = "#6b6b6b"
-GRID = "#e4e4e4"
-
-plt.rcParams.update({
-    "font.family": "serif",
-    "font.serif": ["Times New Roman", "Times", "Nimbus Roman", "DejaVu Serif"],
-    "mathtext.fontset": "stix",
-    "font.size": 7,
-    "axes.labelsize": 7.5,
-    "axes.titlesize": 7.5,
-    "xtick.labelsize": 6.5,
-    "ytick.labelsize": 6.5,
-    "legend.fontsize": 6.5,
-    "axes.edgecolor": MUTED,
-    "axes.linewidth": 0.6,
-    "xtick.color": INK,
-    "ytick.color": INK,
-    "xtick.major.width": 0.6,
-    "ytick.major.width": 0.6,
-    "xtick.major.size": 2.5,
-    "ytick.major.size": 2.5,
-    "axes.spines.top": False,
-    "axes.spines.right": False,
-    "pdf.fonttype": 42,
-    "ps.fonttype": 42,
-    "savefig.dpi": 300,
-})
-
-
-def style_axes(ax) -> None:
-    ax.grid(True, axis="y", color=GRID, linewidth=0.5)
-    ax.set_axisbelow(True)
+RUN_COLOR, TASK_COLOR = RUN, TASK  # run-to-run: blue; task-sampling: orange (same in every figure)
 
 
 def flagged_submissions(results: Path) -> list[str]:
@@ -91,29 +52,36 @@ def fig_rank_intervals(results: Path, out: Path) -> None:
 
     fig, ax = plt.subplots(figsize=(COL_W, 2.55))
     style_axes(ax)
-    ax.vlines(x, tlo, thi, color=TASK_COLOR, linewidth=0.9, alpha=0.9, zorder=2,
-              label="Task-sampling 95% interval")
-    ax.vlines(x, rlo, rhi, color=RUN_COLOR, linewidth=2.0, zorder=3, label="Run-to-run 95% interval")
-    ax.plot(x, mean, linestyle="none", marker="o", markersize=1.6, color=INK, zorder=4, label="Observed mean")
+    ax.spines["left"].set_color(MUTED)
+    ax.spines["bottom"].set_color(MUTED)
+    # two sources, two line weights and a cap on the run interval, so they separate in grey scale too
+    ax.vlines(x, tlo, thi, color=TASK_COLOR, linewidth=0.7, alpha=0.65, zorder=2, label="Task-sampling 95%")
+    ax.errorbar(x, mean, yerr=[mean - rlo, rhi - mean], fmt="none", ecolor=RUN_COLOR, elinewidth=1.5, capsize=1.0,
+                capthick=0.6, zorder=3, label="Run-to-run 95%")
+    ax.scatter(x, mean, s=7, color="#262626", edgecolors="white", linewidths=0.2, zorder=6, label="Observed mean")
 
     flagged = d[d["submission"].isin(flagged_submissions(results))]
     for _, r in flagged.iterrows():
         xr, yr = r["observed_rank"], 100 * r["mean_success"]
-        ax.plot([xr], [yr], marker="D", markersize=4.2, markerfacecolor="none", markeredgecolor=INK,
-                markeredgewidth=0.7, zorder=5)
-        ax.annotate("flagged: identical\nruns on every task", xy=(xr, yr), xytext=(xr + 3, yr + 22),
-                    fontsize=6, color=INK, ha="left", va="center",
-                    arrowprops=dict(arrowstyle="-", color=MUTED, linewidth=0.5, shrinkA=0, shrinkB=3))
+        ax.plot([xr], [yr], marker="D", markersize=4.6, markerfacecolor="none", markeredgecolor=INK,
+                markeredgewidth=0.8, zorder=7)
+        ax.annotate("flagged: identical\nruns on every task", xy=(xr, yr + 3), xytext=(xr + 1.5, yr + 26),
+                    fontsize=FS, color=INK, ha="center", va="bottom", linespacing=1.05,
+                    arrowprops=dict(arrowstyle="-|>", color=INK2, linewidth=0.5, mutation_scale=5, shrinkA=1,
+                                    shrinkB=4))
 
     ax.set_xlim(0, len(d) + 1)
     ax.set_ylim(0, 100)
-    ax.set_xticks([1] + list(range(10, len(d) + 1, 10)))
-    ax.set_xlabel("Submission, ordered by observed mean (best first)")
+    ax.set_yticks(range(0, 101, 20))
+    ax.set_xticks([1] + list(range(20, len(d) + 1, 20)))
+    ax.set_xlabel("Submission rank by observed mean")
     ax.set_ylabel("Mean task success (%)")
-    ax.legend(loc="upper right", frameon=False, handlelength=1.4, borderaxespad=0.2)
+    hs, ls = ax.get_legend_handles_labels()
+    order = [ls.index(k) for k in ("Task-sampling 95%", "Run-to-run 95%", "Observed mean")]
+    ax.legend([hs[i] for i in order], [ls[i] for i in order], loc="lower center", bbox_to_anchor=(0.5, 1.0), ncol=3, frameon=False, handlelength=1.2,
+              handletextpad=0.4, columnspacing=1.2, borderaxespad=0.2)
     fig.tight_layout(pad=0.3)
-    fig.savefig(out / "fig_rank_intervals.pdf", metadata={"CreationDate": None, "Creator": "make_figures.py"})
-    plt.close(fig)
+    save(fig, out, "fig_rank_intervals.pdf", "make_figures.py")
 
 
 def fig_flip_vs_gap(results: Path, out: Path, xmax: float = 12.0) -> None:
@@ -123,7 +91,7 @@ def fig_flip_vs_gap(results: Path, out: Path, xmax: float = 12.0) -> None:
 
     schemes = {
         "run": dict(col="p_flip_run", color=RUN_COLOR, marker="o", ls="-", label="Run-to-run"),
-        "task": dict(col="p_flip_task", color=TASK_COLOR, marker="s", ls="--", label="Task-sampling"),
+        "task": dict(col="p_flip_task", color=TASK_COLOR, marker="s", ls="--", label="Task sampling"),
     }
     # The stored minimum stable gap must follow from the pair table and the threshold.
     for key, s in schemes.items():
@@ -134,32 +102,35 @@ def fig_flip_vs_gap(results: Path, out: Path, xmax: float = 12.0) -> None:
 
     fig, ax = plt.subplots(figsize=(COL_W, 2.45))
     style_axes(ax)
-    ax.grid(True, axis="x", color=GRID, linewidth=0.5)
     gap = pairs["gap_pp"].clip(lower=0)  # exact ties sit at -1e-14 after floating-point differencing
     near = gap <= xmax
     for key, s in schemes.items():
-        ax.scatter(gap[near], pairs.loc[near, s["col"]], s=2.0, color=s["color"], alpha=0.22,
+        ax.scatter(gap[near], pairs.loc[near, s["col"]], s=1.5, color=s["color"], alpha=0.12,
                    marker=s["marker"], linewidths=0, zorder=2)
         b = bins[(bins["scheme"] == s["col"]) & (bins["bin"] >= 0) & (bins["bin"] < xmax)]
-        ax.plot(b["bin"] + 0.5, b["mean_flip"], color=s["color"], linestyle=s["ls"], linewidth=1.1,
-                marker=s["marker"], markersize=2.8, markeredgecolor="white", markeredgewidth=0.3,
-                zorder=4, label=f'{s["label"]}, mean per 1 pp bin')
+        ax.plot(b["bin"] + 0.5, b["mean_flip"], color=s["color"], linestyle=s["ls"], linewidth=1.5,
+                marker=s["marker"], markersize=3.2, markeredgecolor="white", markeredgewidth=0.3,
+                zorder=4, label=s["label"])
         g = summ[key]["gap_max_unstable_pp"]
         ax.axvline(g, color=s["color"], linestyle=":", linewidth=0.9, zorder=3)
-        ax.annotate(f"{g:.1f} pp", xy=(g, 0.62), xytext=(g + 0.15, 0.62), fontsize=6.5, color=INK,
-                    ha="left", va="center")
-    ax.axhline(SEPARABLE_THRESHOLD, color=INK, linewidth=0.7, zorder=3)
-    ax.text(xmax - 0.1, SEPARABLE_THRESHOLD + 0.012, "5% flip probability", fontsize=6.3, color=INK,
+        # threshold labels sit on the line, in the scheme's colour family: left of the 9.7 pp line, right of the 3.6 pp one
+        ax.text(g + (0.18 if key == "run" else -0.18), 0.6, f"{g:.1f} pp:\n{s['label'].lower()}", fontsize=FS,
+                color=INK, ha="left" if key == "run" else "right", va="center", linespacing=1.05)
+    # direct curve labels (the line style and marker still differ, so the pair reads in grey scale)
+    ax.text(3.8, 0.034, "Run-to-run", color=RUN_COLOR, fontsize=FS, fontweight="bold", ha="left", va="center")
+    ax.text(5.2, 0.17, "Task sampling", color=TASK_COLOR, fontsize=FS, fontweight="bold", ha="left", va="center")
+    ax.axhline(SEPARABLE_THRESHOLD, color=INK2, linewidth=0.6, zorder=3)
+    ax.text(xmax - 0.1, SEPARABLE_THRESHOLD + 0.012, "5% flip probability", fontsize=FS, color=INK,
             ha="right", va="bottom")
 
     ax.set_xlim(0, xmax)
     ax.set_ylim(0, 0.66)
+    ax.spines["left"].set_color(MUTED)
+    ax.spines["bottom"].set_color(MUTED)
     ax.set_xlabel("Observed gap between the two submissions (pp)")
     ax.set_ylabel("Flip probability of the pair")
-    ax.legend(loc="center right", frameon=False, handlelength=2.0, borderaxespad=0.2, bbox_to_anchor=(1.0, 0.42))
     fig.tight_layout(pad=0.3)
-    fig.savefig(out / "fig_flip_vs_gap.pdf", metadata={"CreationDate": None, "Creator": "make_figures.py"})
-    plt.close(fig)
+    save(fig, out, "fig_flip_vs_gap.pdf", "make_figures.py")
 
 
 def main() -> None:

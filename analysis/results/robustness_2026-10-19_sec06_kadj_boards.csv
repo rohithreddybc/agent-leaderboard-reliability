@@ -1,0 +1,45 @@
+variant,leaderboard,tiers_headline,tiers_alt,adj_below_headline,adj_below_alt,adj_pairs,adj_verdicts_changed,sep12_headline,sep12_alt,sep15_headline,sep15_alt,gap12_pp,bound12_headline_pp,bound12_alt_pp,max_k
+covariance term single-run (consistent with rho),SWE-bench Verified,21,21,164,164,170,0,False,False,False,False,0.0,3.249338698072092,3.249338698072092,1.0
+covariance term single-run (consistent with rho),SWE-bench Lite,11,11,81,81,83,0,False,False,False,False,0.33333333333334103,5.417657976898102,5.417657976898101,1.0
+covariance term single-run (consistent with rho),SWE-bench test (full),17,17,7,7,22,0,True,True,True,True,8.369659982563215,1.9609583539696767,1.9609583539696767,1.0
+covariance term single-run (consistent with rho),Terminal-Bench 1.0,5,8,25,22,25,3,False,False,False,False,0.7500000000000062,10.330913234094298,6.443629885032401,5.0
+covariance term single-run (consistent with rho),Terminal-Bench 2.0,8,11,73,73,74,0,False,False,False,True,1.7977528089887618,6.999541962045508,4.903739035205849,10.0
+covariance term single-run (consistent with rho),TheAgentCompany,6,6,13,13,15,0,True,True,True,True,8.57142857142857,7.734499231615997,7.734499231615999,1.0
+covariance term single-run (consistent with rho),tau2-bench banking_knowledge,5,7,26,24,26,2,False,True,True,True,6.443298969072176,9.703552783783397,6.298748066318955,4.0
+covariance term single-run (consistent with rho),HAL SWE-bench Verified Mini,6,6,31,31,32,0,False,False,True,True,3.9999999999999925,12.415277063915926,12.415277063915923,2.0
+covariance term single-run (consistent with rho),SWE-bench Multilingual,4,4,10,10,12,0,False,False,False,False,0.666666666666671,4.824387788357655,4.824387788357655,1.0
+covariance term single-run (consistent with rho),tau2-bench telecom,6,8,13,10,15,3,False,False,True,True,0.43859649122808264,2.504849556852201,1.633110109372398,4.0
+covariance term single-run (consistent with rho),AppWorld test_normal,11,11,17,17,23,0,True,True,True,True,5.3571428571428825,3.720264432336691,3.720264432336691,1.0
+covariance term single-run (consistent with rho),AppWorld test_challenge,14,14,11,11,22,0,True,True,True,True,12.709832134292576,2.9212258754706726,2.9212258754706726,1.0
+covariance term single-run (consistent with rho),WebArena (BrowserGym),5,5,6,6,10,0,False,False,True,True,2.463054187192121,3.332426060702328,3.332426060702328,1.0
+covariance term single-run (consistent with rho),WebArena (Google Sheet),21,21,33,33,42,0,False,False,True,True,2.709359605911321,2.9890052160712686,2.989005216071269,1.0
+covariance term single-run (consistent with rho),WorkArena L1,6,6,12,12,13,0,False,False,True,True,2.7272727272727226,5.120615494868877,5.120615494868877,1.0
+covariance term single-run (consistent with rho),WorkArena L2,7,7,8,8,12,0,True,True,True,True,21.702127659574465,6.019855621173936,6.019855621173936,1.0
+covariance term single-run (consistent with rho),AndroidWorld,8,8,38,38,38,0,False,False,False,False,0.0,0.0,0.0,1.0
+covariance term single-run (consistent with rho),MLE-bench,6,6,22,22,23,0,False,False,False,False,1.3299999999999979,10.637458354269588,10.637458354269588,1.0
+covariance term single-run (consistent with rho),HAL GAIA,7,7,29,29,30,0,False,False,True,True,3.6363636363636376,6.643367934266078,5.998711655720491,2.0
+covariance term single-run (consistent with rho),HAL SciCode,2,2,32,32,32,0,False,False,False,False,0.0,6.88184340853228,6.88184340853228,2.0
+covariance term single-run (consistent with rho),HAL ScienceAgentBench,5,5,21,21,22,0,False,False,False,False,2.9411764705882417,8.840203687532066,8.840203687532064,1.0
+covariance term single-run (consistent with rho),HAL USACO,5,5,9,9,12,0,False,False,True,True,4.234527687296419,5.142676563719588,5.142676563719588,1.0
+SE scaled in all terms (literal),SWE-bench Verified,21,21,164,164,170,0,False,False,False,False,0.0,3.249338698072092,3.249338698072092,1.0
+SE scaled in all terms (literal),SWE-bench Lite,11,11,81,81,83,0,False,False,False,False,0.33333333333334103,5.417657976898102,5.417657976898101,1.0
+SE scaled in all terms (literal),SWE-bench test (full),17,17,7,7,22,0,True,True,True,True,8.369659982563215,1.9609583539696767,1.9609583539696767,1.0
+SE scaled in all terms (literal),Terminal-Bench 1.0,5,6,25,24,25,1,False,False,False,False,0.7500000000000062,10.330913234094298,8.673315322313567,5.0
+SE scaled in all terms (literal),Terminal-Bench 2.0,8,9,73,73,74,0,False,False,False,False,1.7977528089887618,6.999541962045508,5.876463500654732,10.0
+SE scaled in all terms (literal),TheAgentCompany,6,6,13,13,15,0,True,True,True,True,8.57142857142857,7.734499231615997,7.734499231615999,1.0
+SE scaled in all terms (literal),tau2-bench banking_knowledge,5,6,26,26,26,0,False,False,True,True,6.443298969072176,9.703552783783397,8.25253363997783,4.0
+SE scaled in all terms (literal),HAL SWE-bench Verified Mini,6,6,31,31,32,0,False,False,True,True,3.9999999999999925,12.415277063915926,12.415277063915923,2.0
+SE scaled in all terms (literal),SWE-bench Multilingual,4,4,10,10,12,0,False,False,False,False,0.666666666666671,4.824387788357655,4.824387788357655,1.0
+SE scaled in all terms (literal),tau2-bench telecom,6,7,13,12,15,1,False,False,True,True,0.43859649122808264,2.504849556852201,2.130287296994187,4.0
+SE scaled in all terms (literal),AppWorld test_normal,11,11,17,17,23,0,True,True,True,True,5.3571428571428825,3.720264432336691,3.720264432336691,1.0
+SE scaled in all terms (literal),AppWorld test_challenge,14,14,11,11,22,0,True,True,True,True,12.709832134292576,2.9212258754706726,2.9212258754706726,1.0
+SE scaled in all terms (literal),WebArena (BrowserGym),5,5,6,6,10,0,False,False,True,True,2.463054187192121,3.332426060702328,3.332426060702328,1.0
+SE scaled in all terms (literal),WebArena (Google Sheet),21,21,33,33,42,0,False,False,True,True,2.709359605911321,2.9890052160712686,2.989005216071269,1.0
+SE scaled in all terms (literal),WorkArena L1,6,6,12,12,13,0,False,False,True,True,2.7272727272727226,5.120615494868877,5.120615494868877,1.0
+SE scaled in all terms (literal),WorkArena L2,7,7,8,8,12,0,True,True,True,True,21.702127659574465,6.019855621173936,6.019855621173936,1.0
+SE scaled in all terms (literal),AndroidWorld,8,8,38,38,38,0,False,False,False,False,0.0,0.0,0.0,1.0
+SE scaled in all terms (literal),MLE-bench,6,6,22,22,23,0,False,False,False,False,1.3299999999999979,10.637458354269588,10.637458354269588,1.0
+SE scaled in all terms (literal),HAL GAIA,7,7,29,29,30,0,False,False,True,True,3.6363636363636376,6.643367934266078,6.375292346127203,2.0
+SE scaled in all terms (literal),HAL SciCode,2,2,32,32,32,0,False,False,False,False,0.0,6.88184340853228,6.88184340853228,2.0
+SE scaled in all terms (literal),HAL ScienceAgentBench,5,5,21,21,22,0,False,False,False,False,2.9411764705882417,8.840203687532066,8.840203687532064,1.0
+SE scaled in all terms (literal),HAL USACO,5,5,9,9,12,0,False,False,True,True,4.234527687296419,5.142676563719588,5.142676563719588,1.0

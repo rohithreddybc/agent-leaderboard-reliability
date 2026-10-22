@@ -1,0 +1,8 @@
+leaderboard,pairs,agree,kappa,n_bound_sep,n_test_sep,n_both,agree_among_either
+SWE-bench Verified,170,0.9823529411764705,0.658634538152609,6,3,3,0.5
+SWE-bench Lite,83,0.9879518072289156,0.6612244897959174,2,1,1,0.5
+SWE-bench test (full),22,0.9090909090909091,0.8053097345132743,15,13,13,0.8666666666666667
+SWE-bench Multilingual,12,0.9166666666666666,0.625,2,1,1,0.5
+Terminal-Bench 1.0,25,1.0,,0,0,0,
+Terminal-Bench 2.0,74,1.0,1.0,1,1,1,1.0
+TheAgentCompany,15,1.0,1.0,2,2,2,1.0

@@ -3,7 +3,7 @@
 Code, derived data and logs behind R. R. Bellibatlu and M. Singh, "LLM Agent Leaderboards Often Cannot Separate Their Top Two Entries".
 Canonical citation key: `bellibatlu2026leaderboards` (see `CITATION.cff`). Version 1.1.0. `RESULTS-MAP.md` maps each table and figure of the paper and its supplement to the script and files that produce it.
 
-Repository: https://github.com/rohithreddybc/agent-leaderboard-reliability. Archive (all versions): https://doi.org/10.5281/zenodo.23174950 (v1.0.0, 2026-10-05; v1.1.0, 2026-10-21).
+Repository: https://github.com/rohithreddybc/agent-leaderboard-reliability. Software archive (all versions): https://doi.org/10.5281/zenodo.23174950 (v1.0.0, 2026-10-05; v1.1.0, 2026-10-21). Please cite the paper (see Citation), not the archive DOI.
 
 Licences: code MIT (`LICENSE`); derived data CC BY 4.0 (`LICENSE-data`). Upstream sources keep their own terms; see "Data sources".
 
@@ -154,4 +154,4 @@ If you use this code or data, please cite the paper:
 }
 ```
 
-This entry will be updated with the preprint DOI and, on acceptance, the journal DOI.
+This entry will be updated with the arXiv DOI and, on acceptance, the journal DOI. Please do not cite the Zenodo archive DOI.

@@ -1,10 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this code or data, please cite the paper (preferred-citation below)."
+message: "If you use this code or data, please cite the paper (preferred-citation below), not the software archive."
 title: "Code and data for: LLM Agent Leaderboards Often Cannot Separate Their Top Two Entries"
 type: software
 version: 1.1.0
 repository-code: "https://github.com/rohithreddybc/agent-leaderboard-reliability"
-doi: "10.5281/zenodo.23174950"
 date-released: 2026-10-21
 authors:
   - family-names: Bellibatlu
